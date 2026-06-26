@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How I built this — Lusophone Library</title>
+<link rel="stylesheet" href="shared.css">
+<style>
+footer{margin-top:3rem;text-align:center}
+.date-flag{font-weight:700;font-family:Georgia,serif}
+.method-step{display:flex;gap:1rem;align-items:flex-start;margin-bottom:1rem}
+.method-step .step-num{font-family:Georgia,serif;font-size:1.4rem;font-weight:700;
+  color:#c8860a;flex-shrink:0;width:2rem;line-height:1.2}
+.method-step .step-body{flex:1}
+.method-step .step-body strong{display:block;font-size:0.95rem;font-weight:700;
+  color:#1a1208;margin-bottom:0.2rem}
+.method-step .step-body span{font-size:14px;color:#3a2c1a;line-height:1.65}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <a class="wordmark" href="index.html">Lusophone Library</a>
+  <nav>
+    <a href="index.html">Catalogue</a>
+    <a href="about.html" class="active">About</a>
+    <a href="suggest.html">Suggest a book</a>
+  </nav>
+</header>
+
+<div class="page-title">
+  <div class="eyebrow">Lusophone Library</div>
+  <h1>How I built this catalogue</h1>
+  <p class="sub">From ~20 shelf photos to 200 catalogued entries — with some help.</p>
+</div>
+
+<figure class="shelf-photo" style="padding:0 2rem;max-width:none">
+  <img src="shelf-grid.png" alt="Grid of 20 photographs of the shelves at Librairie Portugaise et Brésilienne, Paris — the source material for this catalogue">
+  <figcaption>The 20 shelf photographs taken at Librairie Portugaise et Brésilienne, Paris — the source material for this catalogue</figcaption>
+</figure>
+
+<div class="body">
+
+  <h2 id="start">The occasion</h2>
+
+  <p>My birthday falls on 5 May, which, among other things, is also the <span class="date-flag">Dia Mundial da Língua Portuguesa</span> — the World Day of the Portuguese Language, recognised by UNESCO and the United Nations. I have been absorbing Portuguese for the past three years or so, and am now learning more formally, which makes it feel less like a coincidence than an invitation.</p>
+
+  <p>Earlier this year I was in Paris and walked past the <strong>Librairie Portugaise et Brésilienne</strong> on rue Tournefort in the 5th arrondissement — one of the only specialist Lusophone bookshops in Europe. I went in, browsed for a long time, chatted with the person at the desk, bought a few things, and came out feeling acutely aware of how much I didn't know: about Angolan literature, about Cape Verdean poetry, about the extraordinary range of Brazilian fiction beyond the authors I already recognised.</p>
+
+  <blockquote>"I wanted a reading list. The shelves were, in effect, an expert's curated selection. But there were so many that I thought, I'll just photograph the shelves I am interested in, and research them manually later. But I pretty quickly realised that was a rabbit hole I couldn't justify given my other responsibilities&hellip;"</blockquote>
+
+  <p>So I gave the ~20 photographs I took of the shelves to Anthropic's chatbot version of Claude to do the research. It has ended up being quite an engrossing experiment for me to learn how to put together and sequence a simple project like this.</p>
+
+<h2 id="method">What I actually did</h2>
+
+  <div class="method-step">
+    <div class="step-num">1</div>
+    <div class="step-body">
+      <strong>Photographed the shelves</strong>
+      <span>20 photos, each covering a section — Angola, Mozambique, Cape Verde, Brazilian fiction, Brazilian poetry, music biography, and history. Roughly 280–320 distinct titles visible in total.</span>
+    </div>
+  </div>
+
+  <div class="method-step">
+    <div class="step-num">2</div>
+    <div class="step-body">
+      <strong>Used Claude to read the spines</strong>
+      <span>I fed the photos to Claude (Anthropic's AI) and asked it to identify every legible title and author. It produced an initial list of around 130 entries across two research passes, each pass catching titles missed by the first.</span>
+    </div>
+  </div>
+
+  <div class="method-step">
+    <div class="step-num">3</div>
+    <div class="step-body">
+      <strong>Enriched the data</strong>
+      <span>For each identified title, Claude researched: publication year, genre, a brief blurb, whether an English translation exists (and if so, the translator, publisher and year), and any notable awards. This is where most of the value lies — it turned a list of names into a usable reading guide.</span>
+    </div>
+  </div>
+
+  <div class="method-step">
+    <div class="step-num">4</div>
+    <div class="step-body">
+      <strong>Added sourcing information</strong>
+      <span>For each entry: where to buy the Portuguese original (Librairie Portugaise itself, Bertrand, publisher sites); where to find English translations (Bookshop.org, Hive); what's free on archive.org or Domínio Público; what's available via library apps (Libby, BorrowBox).</span>
+    </div>
+  </div>
+
+  <div class="method-step">
+    <div class="step-num">5</div>
+    <div class="step-body">
+      <strong>Ran a model review</strong>
+      <span>I sent the complete catalogue in three chunks to a fresh Claude instance and asked it to act as a bibliographic editor — checking for factual errors, wrong translators, misattributions, and duplicates. It flagged several new problems that had been missed in the previous thread.</span>
+    </div>
+  </div>
+
+  <div class="method-step">
+    <div class="step-num">6</div>
+    <div class="step-body">
+      <strong>Made corrections</strong>
+      <span>Removed and fixed a bunch of errors, mis-inclusions, typos etc.</span>
+    </div>
+  </div>
+
+  <div class="method-step">
+    <div class="step-num">7</div>
+    <div class="step-body">
+      <strong>Added ISBNs and citations</strong>
+      <span>As the online bookshop links were somewhat hit-and-miss, I got the LLM to design a process to find ISBNs — first by a search, then by giving me a Python script to run locally in Terminal (I've been getting into Python and Terminal a little). It then tracked down prizes the books had won, and designed a little tag for that. Then it updated all the files accordingly. And now I am here fine-editing in the HTML&hellip;</span>
+    </div>
+  </div>
+
+<h2 id="caveats">What to trust — and what not to</h2>
+
+  <div class="caveats">
+    <h3>Be aware</h3>
+    <ul>
+      <li>Entries marked <em>"spine only"</em> are identified from photographs of book spines — titles and authors may be imprecise or misread.</li>
+      <li>Some blurbs are AI-generated summaries, not sourced from publishers or critics. They may be reductive or occasionally inaccurate on detail.</li>
+      <li>Publication years are the best available date — first edition in Portuguese, not necessarily the edition in the shop.</li>
+      <li>English translation details (translator names, publishers, years) were checked but should be verified before purchasing.</li>
+      <li>The catalogue covers ~217 of an estimated 280–320 distinct titles on the shelves. Many titles were too far, too small, or too obscured to identify.</li>
+          </ul>
+  </div>
+
+  <h2>What the AI was good at</h2>
+
+  <p>Rapid bibliographic cross-referencing at a scale I couldn't have managed manually in a reasonable time. Identifying English translations and their publication details across a wide range of publishers. Recognising canonical works and their significance — it was able to identify that Noémia de Sousa's <em>Sangue Negro</em> had circulated in mimeograph for fifty years before formal publication, or that Luandino Vieira's <em>Luuanda</em> award caused the Portuguese secret police to dissolve the writers' society.</p>
+
+  <p>It was able to flag uncertainty — flagging entries it couldn't verify as "spine only," and generating a usable list of errors when asked to act as an editor.</p>
+
+  <h2>What needed human judgement</h2>
+
+  <p>Catching the AI's own (confident) errors. Several blurbs described books using the wrong translator, wrong trilogy volume, or wrong country of publication — errors that looked plausible at first glance. It even included a Henning Mankell book. The model review pass caught most of these, but it spotted a few and flagged them.</p>
+
+  <p>It also can't replace reading the books, which I have not done yet myself, though I did buy a couple of Ailton Krenak books, one by Rosane Borges (on Sueli Carneiro) and an introduction to Candomblé.</p>
+
+  <h2 id="what-next">What this is for</h2>
+
+  <p>A personal experiment to build a reading list, primarily — structured around the question of what Lusophone literature I should know if I'm serious about learning Portuguese and understanding the world it opens up. That means Angola, Mozambique, Cape Verde, Brazil and Goa, not just Portugal.</p>
+
+  <p>It's also a small demonstrator of what AI can assist me to do with a bit of basic back-and-forth research — not replacing expertise, but rapidly building an initial structure that human judgement can then correct and refine — and this feels genuinely useful. The catalogue took a few hours of iterative work rather than weeks.</p>
+
+  <p>It's just based on what was on the shelves at the bookshop, so whether it's a good reading guide is for others to judge. Let me know things you think I should add, and why, via the <a href="suggest.html">Suggest a book</a> link below.</p>
+
+  <p>5 de maio. Dia Mundial da Língua Portuguesa.<br>A good day to start.</p>
+
+</div>
+
+<footer>
+  Built with Claude (Anthropic) · Photographs taken at <a href="https://librairie-portugaise.com" target="_blank">Librairie Portugaise et Brésilienne</a>, Paris
+  &nbsp;·&nbsp; <a href="index.html">Catalogue</a> &nbsp;·&nbsp; <a href="suggest.html">Suggest a book</a>
+</footer>
+
+</body>
+</html>

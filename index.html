@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lusophone Library — Catalogue</title>
+<link rel="stylesheet" href="shared.css">
+<style>
+body{font-size:15px;line-height:1.65}
+.site-header{flex-shrink:0}
+
+/* ── PAGE INTRO BAR ──────────────────────────────────────── */
+.page-intro{padding:0.55rem 2rem;background:#faf8f4;
+  border-bottom:1px solid #e8dece;font-size:12px;color:#8a7a68;
+  display:flex;align-items:center;gap:0.75rem;flex-wrap:wrap}
+#tc{font-weight:700;color:#1a1208}
+
+/* ── FILTER / CONTROL BAR ────────────────────────────────── */
+.ctrl{padding:0.6rem 2rem;background:#fff;border-bottom:1px solid #e8dece;
+  display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.ctrl input{border:1px solid #d8cebe;padding:5px 10px;border-radius:4px;
+  font-size:13px;background:#fff;color:#1a1208;outline:none;width:220px;
+  font-family:inherit}
+.ctrl input:focus{border-color:#c8860a}
+.ctrl select{border:1px solid #d8cebe;padding:5px 8px;border-radius:4px;
+  font-size:13px;background:#fff;color:#1a1208;cursor:pointer;
+  outline:none;font-family:inherit}
+.ctrl select:focus{border-color:#c8860a}
+
+/* ── LEGEND BAR ──────────────────────────────────────────── */
+.legbar{padding:0.4rem 2rem;background:#faf8f4;border-bottom:1px solid #e8dece;
+  display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.legbar span{font-size:11px;color:#8a7a68;margin-right:2px}
+.lb{font-size:11px;padding:3px 9px;border-radius:3px;cursor:pointer;border:none;
+  font-family:inherit;transition:opacity .15s}
+.lb:hover{opacity:0.8}
+
+/* ── TIP ─────────────────────────────────────────────────── */
+#tip{padding:5px 2rem;background:#fff8e8;border-bottom:1px solid #f0c060;
+  font-size:11px;color:#6a4a00;display:none}
+
+/* ── SECTION LABEL ───────────────────────────────────────── */
+.sec-lbl{padding:0.35rem 2rem;font-size:11px;font-weight:700;letter-spacing:0.08em;
+  text-transform:uppercase;color:#fff;margin-top:0}
+
+/* ── RESULTS AREA ────────────────────────────────────────── */
+#out{padding:0 0 2rem}
+.empty{padding:3rem 2rem;color:#8a7a68;font-size:14px;text-align:center}
+
+/* ── BOOK CARD ───────────────────────────────────────────── */
+.card{border-bottom:1px solid #e8dece;background:#fff}
+.card:last-child{border-bottom:none}
+
+.ch{padding:0.7rem 2rem;cursor:pointer;display:flex;align-items:flex-start;
+  gap:0.75rem;transition:background .1s}
+.ch:hover{background:#faf4ea}
+.ch:focus{outline:2px solid #c8860a;outline-offset:-2px}
+.fl{font-size:1.1rem;flex-shrink:0;margin-top:1px}
+.mt{flex:1;min-width:0}
+.tt{font-family:Georgia,serif;font-size:0.95rem;font-weight:700;
+  color:#1a1208;line-height:1.3;margin-bottom:1px}
+.au{font-size:12px;color:#6a5c48;margin-bottom:4px}
+.tgs{display:flex;flex-wrap:wrap;gap:4px}
+.tg{font-size:10px;padding:2px 6px;border-radius:3px;border:1px solid #d8cebe;
+  color:#5a4a38;background:#f4f1eb;font-family:inherit;white-space:nowrap}
+.tg.en{color:#1a5a1a;background:#f0f8f0;border-color:#a8d8a8}
+.tg.aw{color:#7a5a00;background:#fff8e8;border-color:#e8d080}
+.tg.fr{color:#1a3a5a;background:#f0f4f8;border-color:#a8bed8}
+.tg.unc{color:#c0392b;background:#fff0f0;border-color:#f0a8a8}
+.cv{font-size:11px;color:#c0b0a0;flex-shrink:0;margin-top:3px;user-select:none}
+
+.cb{padding:0.75rem 2rem 1rem 3.2rem;border-top:1px solid #f0e8dc;
+  background:#fffdf9}
+.bl{font-size:13px;line-height:1.65;color:#3a2c1a;margin-bottom:8px}
+.aw-t{font-size:12px;color:#7a5a00;background:#fff8e8;
+  border:1px solid #e8d080;border-radius:3px;padding:3px 8px;
+  margin-bottom:8px;display:inline-block}
+.en-t{font-size:12px;color:#2a5a2a;background:#f4fbf4;
+  border:1px solid #a8d8a8;border-radius:3px;padding:3px 8px;
+  margin-bottom:8px;display:inline-block}
+.no-en{font-size:11px;color:#aaa;margin-bottom:6px}
+.bl-lbl{font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  color:#8a7a68;margin:8px 0 4px}
+.br{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:6px}
+.bb{font-size:11px;padding:3px 8px;border-radius:3px;
+  text-decoration:none;border:1px solid #d8cebe;color:#1a1208;
+  background:#fff;white-space:nowrap;transition:background .1s,border-color .1s}
+.bb:hover{background:#faf4ea;border-color:#c8860a;text-decoration:none}
+
+/* ── Editions ─────────────────────────────────────────────── */
+.eds-wrap{display:flex;flex-direction:column;gap:3px;margin-bottom:6px}
+.eds-lang{display:flex;flex-wrap:wrap;gap:3px;align-items:baseline}
+.eds-l{font-size:10px;font-family:inherit;font-weight:700;letter-spacing:.05em;
+  color:#7a5a2a;text-transform:uppercase;min-width:82px;flex-shrink:0}
+.eds-isbn{font-size:10px;font-family:monospace;padding:1px 5px;
+  border:1px solid #ddd0b8;border-radius:3px;color:#3a6a9a;
+  background:#f5f8fd;text-decoration:none}
+.eds-isbn:hover{background:#dde8f5;border-color:#7aaad0;text-decoration:none}
+.eds-more{font-size:10px;color:#9a8a6a;padding:1px 4px;font-style:italic}
+
+.cite-link{color:#8a5a00;font-size:10px;text-decoration:none;
+  border-bottom:1px dotted #c8860a}
+.cite-link:hover{color:#c8860a;text-decoration:none}
+
+footer{line-height:1.8}
+
+@media(max-width:600px){
+  .ctrl{padding:0.5rem 1rem}
+  .ctrl input{width:160px}
+  .ch{padding:0.6rem 1rem}
+  .cb{padding:0.75rem 1rem 1rem 1rem}
+  .page-intro{padding:0.5rem 1rem}
+}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <a class="wordmark" href="index.html">Lusophone Library</a>
+  <nav>
+    <a href="index.html" class="active">Catalogue</a>
+    <a href="about.html">About</a>
+    <a href="suggest.html">Suggest a book</a>
+  </nav>
+</header>
+<div class="page-intro">
+  <span><strong>Lusophone Library</strong></span>
+  <span>·</span>
+  <span><span id="tc">200</span> entries</span>
+  <span>·</span>
+  <span>Fiction · Poetry · Non-fiction · Biography · Music · History</span>
+  <span style="margin-left:auto;font-style:italic">~280–320 distinct titles estimated on shelves</span>
+</div>
+<div class="legbar">
+  <span>WHERE TO BUY →</span>
+  <button class="lb" style="background:#fff3e0;color:#8a4000" onclick="tip('Librairie Portugaise et Brésilienne (librairie-portugaise.com) · Bertrand worldwide shipping (bertrand.pt) · FNAC Portugal (fnac.pt)')">🇵🇹 Librairie Portugaise / Bertrand</button>
+  <button class="lb" style="background:#e8f5e9;color:#1b5e20" onclick="tip('Bookshop.org UK (bookshop.org/pages/uk) · Hive.co.uk · Bookshop.org US — search the English title')">🇬🇧 Bookshop.org / Hive</button>
+  <button class="lb" style="background:#e3f2fd;color:#0d47a1" onclick="tip('Companhia das Letras (companhiadasletras.com.br) · Rocco/Record (grupoeditorialrecord.com.br) · Alfaguara Brasil · Livraria Travessa (travessa.com.br)')">🇧🇷 Brazilian publishers</button>
+  <button class="lb" style="background:#f3e5f5;color:#4a148c" onclick="tip('Internet Archive / Open Library (archive.org) — free to borrow or read online · Domínio Público Brazil (dominiopublico.gov.br) — free digital public domain')">📖 Free online (archive.org)</button>
+  <button class="lb" style="background:#e0f7fa;color:#006064" onclick="tip('Links open a WorldCat search (worldcat.org) — shows which libraries worldwide hold the book and whether it is in Libby/OverDrive')">🏛️ WorldCat / Libraries</button>
+  <button class="lb" style="background:#fce4ec;color:#880e4f" onclick="tip('AbeBooks (abebooks.co.uk) · Estante Virtual (estantevirtual.com.br) for Brazilian editions · WorldCat.org to find library copies · eBay')">🔍 AbeBooks / secondhand</button>
+  <button class="lb" style="background:#e8eaf6;color:#1a237e" onclick="tip('L\'Harmattan (editions-harmattan.fr) · Karthala (karthala.com) — the two main specialist French publishers of African academic and literary works')">🇫🇷 L'Harmattan / Karthala</button>
+</div>
+<div id="tip"></div>
+<div class="ctrl">
+  <input type="text" id="q" placeholder="Search title or author..." oninput="render()">
+  <select id="sec" onchange="render()">
+    <option value="">All sections</option>
+    <option value="angola">Angola — fiction &amp; poetry</option>
+    <option value="moz">Mozambique — fiction &amp; poetry</option>
+    <option value="cv">Cape Verde — fiction &amp; poetry</option>
+    <option value="oaf">Other Lusophone Africa</option>
+    <option value="bf">Brazil — fiction &amp; chronicles</option>
+    <option value="bp">Brazil — poetry</option>
+    <option value="bb">Brazil — biography &amp; memoir</option>
+    <option value="bm">Brazil — music</option>
+    <option value="hi">Brazil — history</option>
+  </select>
+  <select id="acc" onchange="render()">
+    <option value="">All access types</option>
+    <option value="en">English translation exists</option>
+    <option value="free">Free online (archive.org etc)</option>
+    <option value="lib">Library apps (Libby/BorrowBox)</option>
+    <option value="unc">Spine only — unconfirmed</option>
+  </select>
+  <select id="gen" onchange="render()">
+    <option value="">All genres</option>
+  </select>
+  <select id="srt" onchange="render()">
+    <option value="">Order: by section</option>
+    <option value="yr_asc">Year: oldest first</option>
+    <option value="yr_desc">Year: newest first</option>
+    <option value="au_az">Author: A–Z</option>
+  </select>
+  <span id="cnt"></span>
+</div>
+<div id="out"></div>
+<footer>
+  <strong>Specialists:</strong> <a href="https://librairie-portugaise.com">librairie-portugaise.com</a> · <a href="https://bertrand.pt">bertrand.pt</a> (worldwide shipping) · <a href="https://www.companhiadasletras.com.br">companhiadasletras.com.br</a> (links open Google site-search — direct links require ISBNs) · <a href="https://travessa.com.br">travessa.com.br</a><br>
+  <strong>English translations:</strong> <a href="https://bookshop.org">bookshop.org</a> · <a href="https://www.hive.co.uk">hive.co.uk</a><br>
+  <strong>Free texts:</strong> <a href="https://archive.org">archive.org</a> · <a href="http://www.dominiopublico.gov.br">dominiopublico.gov.br</a><br>
+  <strong>Library apps:</strong> <a href="https://worldcat.org">worldcat.org</a> (finds library + Libby/OverDrive availability)<br>
+  <strong>Secondhand:</strong> <a href="https://www.abebooks.co.uk">abebooks.co.uk</a> · <a href="https://www.estantevirtual.com.br">estantevirtual.com.br</a><br>
+  <strong>French academic:</strong> <a href="https://www.editions-harmattan.fr">editions-harmattan.fr</a> · <a href="https://www.karthala.com">karthala.com</a><br>
+  Entries marked <em>"spine only"</em> may have imprecise titles or authors. <a href="about.html">About this project</a> · <a href="suggest.html">Suggest a book</a>
+</footer>
+<script>
+const enc=encodeURIComponent;
+function isbn(eds,lang){
+  if(!eds) return null;
+  const arr=eds[lang];
+  return arr&&arr.length?arr[0].isbn:null;
+}
+const BUY={
+  sp:{l:"Librairie Portugaise",f:(t,a,eds)=>`https://www.librairie-portugaise.com/?s=${enc(t)}`},
+  bt:{l:"Bertrand.pt",f:(t,a,eds)=>`https://www.bertrand.pt/pesquisa?pesquisa=${enc(t)}`},
+  cl:{l:"Companhia das Letras",f:(t,a,eds)=>`https://www.google.com/search?q=site:companhiadasletras.com.br+${enc(t)}`},
+  rc:{l:"Rocco/Record",f:(t,a,eds)=>`https://www.grupoeditorialrecord.com.br/?s=${enc(t)}`},
+  bk:{l:"Bookshop.org",f:(t,a,eds)=>{const i=isbn(eds,"en");return i?`https://bookshop.org/books/${i}`:`https://bookshop.org/search?keywords=${enc(t+' '+a)}`;} },
+  hv:{l:"Hive.co.uk",f:(t,a,eds)=>{const i=isbn(eds,"en");return i?`https://www.hive.co.uk/Product/ISBN/${i}`:`https://www.hive.co.uk/Search/Keyword?keyword=${enc(t+' '+a)}`;} },
+  ar:{l:"Open Library",f:(t,a,eds)=>{const i=isbn(eds,"pt")||isbn(eds,"en");return i?`https://openlibrary.org/isbn/${i}`:`https://archive.org/search?query=${enc('"'+t+'"')}&mediatype=texts`;} },
+  dp:{l:"Domínio Público (free)",f:(t,a,eds)=>`http://www.dominiopublico.gov.br/pesquisa/PesquisaObraForm.do?no_obra=${enc(t)}&co_midia=2`},
+  lb:{l:"WorldCat / Libraries",f:(t,a,eds)=>{const i=isbn(eds,"en")||isbn(eds,"pt");return i?`https://worldcat.org/isbn/${i}`:`https://worldcat.org/search?q=${enc(t+' '+a)}`;} },
+  ab:{l:"AbeBooks",f:(t,a,eds)=>{const i=isbn(eds,"en")||isbn(eds,"pt");return i?`https://www.abebooks.co.uk/servlet/SearchResults?isbn=${i}`:`https://www.abebooks.co.uk/book-search/title/${enc(t)}/author/${enc(a)}/`;} },
+  ev:{l:"Estante Virtual",f:(t,a,eds)=>`https://www.estantevirtual.com.br/busca?q=${enc(t)}`}
+};
+const FL={Angola:"🇦🇴",Mozambique:"🇲🇿","Cape Verde":"🇨🇻",Brazil:"🇧🇷","Sao Tome":"🇸🇹","Goa/Portugal":"🇮🇳",Portugal:"🇵🇹",France:"🇫🇷",Multiple:"🌍",Sweden:"🇸🇪"};
+const SL={angola:"🇦🇴 Angola — fiction & poetry",moz:"🇲🇿 Mozambique — fiction & poetry",cv:"🇨🇻 Cape Verde — fiction & poetry",oaf:"🌍 Other Lusophone Africa",bf:"🇧🇷 Brazil — fiction & chronicles",bp:"🇧🇷 Brazil — poetry",bb:"🇧🇷 Brazil — biography & memoir",bm:"🇧🇷 Brazil — music",hi:"🇧🇷 Brazil — history"};
+const SO=["angola","moz","cv","oaf","bf","bp","bb","bm","hi"];
+let EX=null;
+function tip(t){const d=document.getElementById('tip');if(d.textContent===t&&d.style.display==='block'){d.style.display='none';}else{d.textContent=t;d.style.display='block';}}
+let D=[];
+
+function renderEditions(eds){
+  if(!eds||!Object.keys(eds).length) return '';
+  const LNAMES={"pt": "Portuguese", "en": "English", "fr": "French", "de": "German", "es": "Spanish", "it": "Italian", "nl": "Dutch", "sv": "Swedish", "no": "Norwegian", "fi": "Finnish", "pl": "Polish", "ca": "Catalan", "ja": "Japanese", "zh": "Chinese", "ko": "Korean", "ar": "Arabic", "he": "Hebrew", "ru": "Russian", "tr": "Turkish", "el": "Greek", "hr": "Croatian", "ro": "Romanian", "bg": "Bulgarian", "cs": "Czech", "hu": "Hungarian", "da": "Danish"};
+  const ORDER=['pt','en','fr','de','es','it','nl','sv','no','pl','ca'];
+  const langs=Object.keys(eds).sort((a,b)=>{
+    const ai=ORDER.indexOf(a),bi=ORDER.indexOf(b);
+    if(ai<0&&bi<0) return a<b?-1:1;
+    if(ai<0) return 1; if(bi<0) return -1; return ai-bi;
+  });
+  const total=Object.values(eds).reduce((s,a)=>s+a.length,0);
+  let html=`<div class="bl-lbl">Editions (${total} found)</div><div class="eds-wrap">`;
+  for(const lang of langs){
+    const arr=eds[lang];
+    const lname=LNAMES[lang]||lang.toUpperCase();
+    html+=`<div class="eds-lang"><span class="eds-l">${lname}</span>`;
+    for(const ed of arr.slice(0,3)){
+      const label=[ed.pub,ed.year,ed.tr?`tr. ${ed.tr}`:null].filter(Boolean).join(' · ');
+      html+=`<a class="eds-isbn" href="https://openlibrary.org/isbn/${ed.isbn}" target="_blank" title="${label||ed.isbn}">${ed.isbn}</a>`;
+    }
+    if(arr.length>3) html+=`<span class="eds-more">+${arr.length-3} more</span>`;
+    html+='</div>';
+  }
+  html+='</div>';
+  return html;
+}
+
+function makeCard(b,id){
+  const isOpen=EX===id;
+  const card=document.createElement('div');
+  card.className='card';
+  let tags=`<span class="tg">${b.g}</span><span class="tg">${b.y||'?'}</span>`;
+  if(b.en) tags+=`<span class="tg en">🇬🇧 English</span>`;
+  if(b.aw) tags+=`<span class="tg aw">★ Award</span>`;
+  if(b.buy.some(x=>['ar','dp'].includes(x))) tags+=`<span class="tg fr">📖 Free online</span>`;
+  if(b.unc) tags+=`<span class="tg unc">spine only</span>`;
+  let body='';
+  if(isOpen){
+    const buyH=(b.buy||[]).map(k=>BUY[k]?`<a class="bb" href="${BUY[k].f(b.t,b.a,b.editions||null)}" target="_blank">${BUY[k].l}${b.editions&&['bk','hv','lb','ab'].includes(k)?' ↗':''}</a>`:'').join('');
+    body=`<div class="cb">
+      <p class="bl">${b.bl||''}${b.unc?'<br><span style="font-size:10px;color:#c0392b;font-style:italic">⚠ Identified from spine only — title/author may be imprecise</span>':''}</p>
+      ${b.aw?`<p class="aw-t">★ ${b.aw}${b.cite_url?` — <a class="cite-link" href="${b.cite_url}" target="_blank">📜 citation</a>`:""}</p>`:''}
+      ${b.en?`<p class="en-t">🇬🇧 English edition: ${b.en}</p>`:'<p class="no-en">No English translation identified</p>'}
+      ${b.editions?renderEditions(b.editions):''}
+      <div class="bl-lbl">Where to find it</div>
+      <div class="br">${buyH}</div>
+    </div>`;
+  }
+  card.innerHTML=`<div class="ch" onclick="tog('${id}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();tog('${id}');}" tabindex="0" role="button" aria-expanded="${isOpen}">
+    <span class="fl">${FL[b.c]||'🌍'}</span>
+    <div class="mt">
+      <div class="tt">${b.t}</div>
+      <div class="au">${b.a}${b.c?' · '+b.c:''}</div>
+      <div class="tgs">${tags}</div>
+    </div>
+    <span class="cv">${isOpen?'▲':'▼'}</span>
+  </div>${body}`;
+  return card;
+}
+function render(){
+  const q=document.getElementById('q').value.toLowerCase();
+  const sec=document.getElementById('sec').value;
+  const acc=document.getElementById('acc').value;
+  const gen=document.getElementById('gen').value;
+  const srt=document.getElementById('srt').value;
+  let filtered=D.filter(b=>{
+    if(sec && b.s!==sec) return false;
+    if(acc==='en' && !b.en) return false;
+    if(acc==='free' && !b.buy.some(x=>['ar','dp'].includes(x))) return false;
+    if(acc==='lib' && !b.buy.includes('lb')) return false;
+    if(acc==='unc' && !b.unc) return false;
+    if(gen && b.g!==gen) return false;
+    if(q && !b.t.toLowerCase().includes(q) && !b.a.toLowerCase().includes(q)) return false;
+    return true;
+  });
+  if(srt==='yr_asc') filtered.sort((a,b)=>(a.y||9999)-(b.y||9999));
+  else if(srt==='yr_desc') filtered.sort((a,b)=>(b.y||0)-(a.y||0));
+  else if(srt==='au_az') filtered.sort((a,b)=>a.a.localeCompare(b.a));
+  document.getElementById('tc').textContent=D.length;
+  document.getElementById('cnt').textContent=filtered.length+' of '+D.length+' entries';
+  const out=document.getElementById('out');
+  out.innerHTML='';
+  if(!filtered.length){out.innerHTML='<div class="empty">No titles match your filters.</div>';return;}
+  if(srt){
+    const lst=document.createElement('div');
+    lst.className='lst';
+    filtered.forEach((b,i)=>lst.appendChild(makeCard(b,b.s+i)));
+    out.appendChild(lst);
+  } else {
+    const byS={};
+    filtered.forEach(b=>{if(!byS[b.s])byS[b.s]=[];byS[b.s].push(b);});
+    const order=["angola","moz","cv","oaf","bf","bp","bb","bm","hi"];
+    order.forEach(sk=>{
+      if(!byS[sk]) return;
+      const sh=document.createElement('div');
+      sh.className='sec-hd';
+      sh.textContent=SL[sk]||sk;
+      out.appendChild(sh);
+      const lst=document.createElement('div');
+      lst.className='lst';
+      byS[sk].forEach((b,i)=>lst.appendChild(makeCard(b,sk+i)));
+      out.appendChild(lst);
+    });
+  }
+}
+function tog(id){EX=EX===id?null:id;render();}
+window.onload=function(){
+  if(location.protocol==='file:'){
+    document.getElementById('out').innerHTML='<div class="empty">⚠ This catalogue requires a local web server.<br>Run <code>python3 -m http.server</code> in the project folder, then open <a href="http://localhost:8000">http://localhost:8000</a></div>';
+    return;
+  }
+  document.getElementById('out').innerHTML='<div class="empty">Loading catalogue…</div>';
+  fetch('data.json')
+    .then(r=>r.json())
+    .then(data=>{
+      D=data;
+      const genres=[...new Set(D.map(b=>b.g))].sort();
+      const gsel=document.getElementById('gen');
+      genres.forEach(g=>{const o=document.createElement('option');o.value=g;o.textContent=g;gsel.appendChild(o);});
+      render();
+    })
+    .catch(()=>{
+      document.getElementById('out').innerHTML='<div class="empty">Failed to load catalogue data. Check that data.json is present.</div>';
+    });
+};
+</script>
+</body>
+</html>

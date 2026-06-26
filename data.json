@@ -1,0 +1,4432 @@
+[
+  {
+    "s": "angola",
+    "t": "Yaka",
+    "a": "Pepetela",
+    "c": "Angola",
+    "y": 1984,
+    "g": "Novel",
+    "en": "Yaka (Heinemann, 1996, tr. Marga Holness)",
+    "aw": "Camões Prize 1997 (career)",
+    "cite_url": "https://pt.wikipedia.org/wiki/Pr%C3%A9mio_Cam%C3%B5es",
+    "bl": "Epic spanning a century of Angolan history through the Semedo family. Regarded as Pepetela's masterwork.",
+    "buy": [
+      "sp",
+      "bk",
+      "lb",
+      "ar"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "A Geração da Utopia",
+    "a": "Pepetela",
+    "c": "Angola",
+    "y": 1992,
+    "g": "Novel",
+    "bl": "Four episodes following Angolan students in Lisbon, guerrilla fighters, and disillusioned post-independence intellectuals — a searing meditation on revolutionary idealism and its collapse. No confirmed English translation.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9722009982",
+          "year": 2002,
+          "pub": "Publicações Dom Quixote"
+        },
+        {
+          "isbn": "97220009982",
+          "year": 1992,
+          "pub": "Dom Quixote"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "O Desejo de Kianda",
+    "a": "Pepetela",
+    "c": "Angola",
+    "y": 1995,
+    "g": "Novel",
+    "bl": "Buildings collapse around the lagoon of the mermaid spirit Kianda — allegory of post-independence disillusionment.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9722012487",
+          "year": 1995,
+          "pub": "Publicações Dom Quixote"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "As Aventuras de Ngunga",
+    "a": "Pepetela",
+    "c": "Angola",
+    "y": 1973,
+    "g": "Novel",
+    "en": "Ngunga's Adventures (Tanzania Publishing House, 1980)",
+    "bl": "Written during the liberation war as an MPLA training text. A foundational text of Angolan national literature.",
+    "buy": [
+      "sp",
+      "ar",
+      "ab"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "Jaime Bunda, Agente Secreto",
+    "a": "Pepetela",
+    "c": "Angola",
+    "y": 2001,
+    "g": "Novel",
+    "bl": "Comic detective novel parodying James Bond — satirises corruption and chaos in post-war Luanda.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9789722032490",
+          "year": 2009,
+          "pub": "Dom Quixote"
+        },
+        {
+          "isbn": "9788501065957",
+          "year": 2003,
+          "pub": "Record"
+        },
+        {
+          "isbn": "9788501065957",
+          "year": 2001,
+          "pub": "Record"
+        }
+      ]
+    },
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "Jaime Bunda e a Morte do Americano",
+    "a": "Pepetela",
+    "c": "Angola",
+    "y": 2003,
+    "g": "Novel",
+    "bl": "Second Jaime Bunda detective novel; sardonic adventures in a Luanda riven by oil money and intrigue.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9722025279",
+          "year": 2003,
+          "pub": "Publicaçoes Dom Quixote"
+        }
+      ]
+    },
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "O Terrorista de Berkeley, California",
+    "a": "Pepetela",
+    "c": "Angola",
+    "y": 2007,
+    "g": "Novel",
+    "bl": "An aging Angolan professor in California receives a message that disrupts his comfortable exile.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9789722034395",
+          "year": 2007,
+          "pub": "Dom Quixote"
+        }
+      ]
+    },
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "O Tímido e as Mulheres",
+    "a": "Pepetela",
+    "c": "Angola",
+    "y": 2013,
+    "g": "Novel",
+    "bl": "A shy man navigates romantic failure and middle-class Luandan life with characteristic Pepetela irony.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9789722052894",
+          "year": 2013,
+          "pub": "Dom Quixote"
+        }
+      ]
+    },
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "Predadores",
+    "a": "Pepetela",
+    "c": "Angola",
+    "y": 2005,
+    "g": "Novel",
+    "bl": "A state attorney investigates corruption among the Luandan elite — portrait of Angola's post-war predator class.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9789722028950",
+          "year": 2005,
+          "pub": "Dom Quixote"
+        }
+      ]
+    },
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "Muana Puo",
+    "a": "Pepetela",
+    "c": "Angola",
+    "y": 1978,
+    "g": "Novel",
+    "bl": "An ancestral mask becomes a symbol of authentic Angolan identity in the face of colonial cultural erasure.",
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "A Montanha da Água Lilás",
+    "a": "Pepetela",
+    "c": "Angola",
+    "y": 2016,
+    "g": "Novel",
+    "bl": "Fantastical fable in an imaginary African village exploring community, environment and myth.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9722017926",
+          "year": 2000,
+          "pub": "Dom Quixote"
+        },
+        {
+          "isbn": "9722017926",
+          "year": 2000,
+          "pub": "Publicações Dom Quixote"
+        }
+      ]
+    },
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "Luuanda",
+    "a": "José Luandino Vieira",
+    "c": "Angola",
+    "y": 1964,
+    "g": "Short stories",
+    "en": "Luuanda (Heinemann, 1980, tr. Tamara L. Bender)",
+    "aw": "Grande Prémio de Novelística 1965; Camões 2006 (declined)",
+    "cite_url": "https://pt.wikipedia.org/wiki/Pr%C3%A9mio_Cam%C3%B5es",
+    "bl": "Three stories set in Luanda's musseques, written in prison in a fusion of Kimbundu and Portuguese. The award caused PIDE to dissolve the Portuguese Writers Society.",
+    "editions": {
+      "en": [
+        {
+          "isbn": "0435902229",
+          "year": 1980,
+          "pub": "Heinemann",
+          "tr": "Tamara L"
+        },
+        {
+          "isbn": "0435902229",
+          "year": 1980,
+          "pub": "Heinemann",
+          "tr": "Tamara L"
+        }
+      ],
+      "pt": [
+        {
+          "isbn": "9788535909180",
+          "year": 2006,
+          "pub": "Companhia das Letras"
+        },
+        {
+          "isbn": "9722116517",
+          "year": 2004,
+          "pub": "Caminho"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "bk",
+      "ar",
+      "lb"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "A Vida Verdadeira de Domingos Xavier",
+    "a": "José Luandino Vieira",
+    "c": "Angola",
+    "y": 1974,
+    "g": "Novella",
+    "en": "The Real Life of Domingos Xavier (Heinemann, 1978, tr. Michael Wolfers)",
+    "bl": "A tractor driver tortured to death for refusing to name comrades. Adapted as the landmark film Sambizanga (1972) by Sarah Maldoror.",
+    "editions": {
+      "en": [
+        {
+          "isbn": "0435902024",
+          "year": 1978,
+          "pub": "Heinemann Educational"
+        }
+      ],
+      "pt": [
+        {
+          "isbn": "9789722115605",
+          "year": 2003,
+          "pub": "Caminho"
+        },
+        {
+          "isbn": "9789728823283",
+          "year": 2003,
+          "pub": "Editorial Nzila"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "bk",
+      "ar",
+      "ab"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "Nós, os do Makulusu",
+    "a": "José Luandino Vieira",
+    "c": "Angola",
+    "y": 1974,
+    "g": "Novel",
+    "bl": "Stream-of-consciousness memories of four childhood friends from Luanda driven by colonialism onto irreconcilable paths — war, resistance, survival.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "8508039808",
+          "year": 1991,
+          "pub": "Editora Atica"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "Teoria Geral do Esquecimento",
+    "a": "José Eduardo Agualusa",
+    "c": "Angola",
+    "y": 2012,
+    "g": "Novel",
+    "en": "A General Theory of Oblivion (Harvill Secker, 2015, tr. Daniel Hahn)",
+    "aw": "International Dublin Literary Award 2017",
+    "cite_url": "https://dublinliteraryaward.ie/the-library/books/a-general-theory-of-oblivion/",
+    "bl": "A Portuguese woman bricks herself into her Luanda apartment as civil war rages outside for nearly thirty years.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9789722049603",
+          "year": 2012,
+          "pub": "D. Quixote"
+        }
+      ],
+      "en": [
+        {
+          "isbn": "9781846558474"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "bk",
+      "hv",
+      "lb"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "O Vendedor de Passados",
+    "a": "José Eduardo Agualusa",
+    "c": "Angola",
+    "y": 2004,
+    "g": "Novel",
+    "en": "The Book of Chameleons (Simon & Schuster, 2008, tr. Daniel Hahn)",
+    "aw": "Independent Foreign Fiction Prize 2007",
+    "cite_url": "https://dublinliteraryaward.ie/the-library/books/o-vendedor-de-passados/",
+    "bl": "A gecko narrates the story of an albino man who invents genealogies for Angola's newly rich.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9722026674",
+          "year": 2004,
+          "pub": "Dom Quixote"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "bk",
+      "hv",
+      "lb"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "Barroco Tropical",
+    "a": "José Eduardo Agualusa",
+    "c": "Angola",
+    "y": 2009,
+    "g": "Novel",
+    "bl": "A TV producer arrives in Angola and encounters a country in the grip of petro-capitalism and historical amnesia.",
+    "editions": {
+      "de": [
+        {
+          "isbn": "9783940666192",
+          "year": 2011,
+          "pub": "A1-Verl."
+        }
+      ]
+    },
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "Fronteiras Perdidas",
+    "a": "José Eduardo Agualusa",
+    "c": "Angola",
+    "y": 1999,
+    "g": "Short stories",
+    "bl": "Stories traversing Angola, Brazil and Portugal, linked by displacement and migration.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9789722021296",
+          "year": 2002,
+          "pub": "Publicações Dom Quixote"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "Milagrário Pessoal",
+    "a": "José Eduardo Agualusa",
+    "c": "Angola",
+    "y": 2010,
+    "g": "Novel",
+    "bl": "A woman travels across Africa collecting miraculous stories — celebrates oral tradition and interconnected lives.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788560160693",
+          "year": 2010,
+          "pub": "Língua Geral"
+        }
+      ]
+    },
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "As Mulheres do Meu Pai",
+    "a": "José Eduardo Agualusa",
+    "c": "Angola",
+    "y": 2007,
+    "g": "Novel",
+    "en": "My Father's Wives (Simon & Schuster, 2014, tr. Daniel Hahn)",
+    "bl": "A young woman journeys across Africa seeking the women her father loved — road novel about identity and family secrets.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788560160136",
+          "year": 2007,
+          "pub": "Língua Geral"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "A Substância do Amor",
+    "a": "José Eduardo Agualusa",
+    "c": "Angola",
+    "y": 1996,
+    "g": "Short stories",
+    "bl": "Early short fiction blending the magical and the political, rooted in Angolan and Brazilian landscapes.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9722017764",
+          "year": 2000,
+          "pub": "Publicações Dom Quixote"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "Tudo Sobre Deus",
+    "a": "José Eduardo Agualusa",
+    "c": "Angola",
+    "y": 2020,
+    "g": "Novel",
+    "bl": "Exploration of faith, doubt and the divine across multiple Lusophone continents and voices.",
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "Mestre dos Batuques",
+    "a": "José Eduardo Agualusa",
+    "c": "Angola",
+    "y": 2003,
+    "g": "Short stories",
+    "bl": "Stories centred on music and rhythm as organising metaphors for Angolan and Lusophone life.",
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "Também os Brancos Sabem Dançar",
+    "a": "Kalaf Epalanga",
+    "c": "Angola",
+    "y": 2017,
+    "g": "Novel",
+    "en": "Whites Can Dance Too (Faber & Faber, tr. Daniel Hahn)",
+    "bl": "An Angolan musician detained at the Norwegian border; three narrators celebrate diaspora identity and kuduro. Co-founder of Buraka Som Sistema.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788593828720",
+          "year": 2018,
+          "pub": "Todavia"
+        }
+      ],
+      "en": [
+        {
+          "isbn": "9780571371426"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "bk",
+      "hv",
+      "lb"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "Os da Minha Rua",
+    "a": "Ondjaki",
+    "c": "Angola",
+    "y": 2007,
+    "g": "Short stories",
+    "en": "Good Morning Comrades (Biblioasis, 2008, tr. Stephen Henighan)",
+    "bl": "Semi-autobiographical vignettes of childhood in 1980s Luanda — neighbourhood games, school, first love.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788560160235",
+          "year": 2007,
+          "pub": "Língua Geral"
+        },
+        {
+          "isbn": "9789722118637",
+          "year": 2007,
+          "pub": "Caminho"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "Quantas Madrugadas Tem a Noite",
+    "a": "Ondjaki",
+    "c": "Angola",
+    "y": 2004,
+    "g": "Novel",
+    "bl": "Lyrical coming-of-age novel navigating chaotic late-civil-war Luanda.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "5605248097291",
+          "year": 2010,
+          "pub": "Caminho"
+        },
+        {
+          "isbn": "9722116266",
+          "year": 2004,
+          "pub": "Editorial Caminho"
+        },
+        {
+          "isbn": "9722116266",
+          "year": 2004,
+          "pub": "Caminho"
+        }
+      ]
+    },
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "O Assobiador",
+    "a": "Ondjaki",
+    "c": "Angola",
+    "y": 2002,
+    "g": "Novel",
+    "bl": "Lyrical novel centred on an old man who communicates through whistling — allegory of memory and language loss.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "5605248092333",
+          "year": 2009,
+          "pub": "Caminho"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "Momentos de Aqui",
+    "a": "Ondjaki",
+    "c": "Angola",
+    "y": 2001,
+    "g": "Short stories",
+    "bl": "Ondjaki's debut: brief, fragmentary stories of Angolan life marked by tenderness and formal experimentation.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9789722114073",
+          "year": 2001,
+          "pub": "Caminho"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "A Bicicleta que Tinha Bigodes",
+    "a": "Ondjaki",
+    "c": "Angola",
+    "y": 2011,
+    "g": "Children's",
+    "bl": "Beloved children's book about a magical bicycle with a moustache — celebrated across the Lusophone world.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9789722124553",
+          "year": 2011,
+          "pub": "Editorial Caminho"
+        }
+      ]
+    },
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "O Reino das Casuarinas",
+    "a": "José Luís Mendonça",
+    "c": "Angola",
+    "y": 2004,
+    "g": "Novel",
+    "bl": "Lyrical Angolan novel exploring land, belonging and the wounds of colonial dispossession.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9789722126939",
+          "year": 2014,
+          "pub": "Caminho"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "Seja Este Livro um Romance",
+    "a": "José Luís Mendonça",
+    "c": "Angola",
+    "y": 2008,
+    "g": "Novel",
+    "bl": "Experimental Angolan novel questioning the boundaries between testimony, fiction and history.",
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "As Metamorfoses do Elefante",
+    "a": "José Luís Mendonça",
+    "c": "Angola",
+    "y": 2010,
+    "g": "Novel",
+    "bl": "Novel drawing on Angolan landscape and transformations of individual and collective identity.",
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "A Última Lua de Homem Grande",
+    "a": "Adelino Timóteo",
+    "c": "Angola",
+    "y": 2014,
+    "g": "Novel",
+    "bl": "Angolan novel tracing the twilight years of a colonial-era patriarch and the memories that surface.",
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "Verbetes para um Dicionário Afetivo",
+    "a": "Ana Paula Tavares / Ondjaki / others",
+    "c": "Angola",
+    "y": 2016,
+    "g": "Collaborative prose",
+    "bl": "An 'affectionate dictionary' by four Lusophone writers from Angola, Portugal and Brazil — alphabetically ordered entries on universal themes.",
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "Com a Saliva Muito ao Sul",
+    "a": "José Pastor",
+    "c": "Angola",
+    "y": 2016,
+    "g": "Poetry",
+    "unc": true,
+    "bl": "Angolan poetry collection traversing memory and southern landscape.",
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "A Tua Melanina",
+    "a": "Paulo Teixeira / Stéphanie Vasconcelos",
+    "c": "Angola",
+    "y": 2020,
+    "g": "Poetry/prose",
+    "unc": true,
+    "bl": "Collaborative Lusophone collection exploring Blackness, beauty and identity.",
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "angola",
+    "t": "Abel Chivukuvuku — political text",
+    "a": "Abel Chivukuvuku",
+    "c": "Angola",
+    "y": 2016,
+    "g": "Political memoir",
+    "unc": true,
+    "bl": "Text by Angolan politician and CASA-CE opposition leader — exact title unclear from spine.",
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "Terra Sonâmbula",
+    "a": "Mia Couto",
+    "c": "Mozambique",
+    "y": 1992,
+    "g": "Novel",
+    "en": "Sleepwalking Land (Serpent's Tail, 2006, tr. David Brookshaw)",
+    "aw": "One of 12 Best African Books of the 20th Century (Zimbabwe Book Fair)",
+    "bl": "An old man and a boy travel through war-devastated Mozambique, finding comfort in a young man's hidden diaries.",
+    "editions": {
+      "en": [
+        {
+          "isbn": "9781852428976",
+          "year": 2006,
+          "pub": "Serpent's Tail",
+          "tr": "David Brookshaw"
+        }
+      ],
+      "pt": [
+        {
+          "isbn": "9789024796052",
+          "year": 2014,
+          "pub": "Ndjira"
+        },
+        {
+          "isbn": "9722107909",
+          "year": 2002,
+          "pub": "Caminho"
+        },
+        {
+          "isbn": "9789722107907",
+          "year": 1999,
+          "pub": "European Schoolbooks"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "bk",
+      "hv",
+      "lb",
+      "ar"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "A Chuva Pasmada",
+    "a": "Mia Couto",
+    "c": "Mozambique",
+    "y": 2004,
+    "g": "Novella",
+    "en": "The Tuner of Silences (Biblioasis, 2013, tr. David Brookshaw)",
+    "bl": "A family shelters indoors while a petrified rain falls outside — magical novella meditating on memory and silence.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9789722125574",
+          "year": 2012,
+          "pub": "Caminho"
+        },
+        {
+          "isbn": "9722116541",
+          "year": 2004,
+          "pub": "Editorial Caminho"
+        },
+        {
+          "isbn": "9722116541",
+          "year": 2004,
+          "pub": "Caminho"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "O Olho de Hertzog",
+    "a": "Mia Couto",
+    "c": "Mozambique",
+    "y": 2010,
+    "g": "Novel",
+    "bl": "A young doctor investigates a general's death in colonial Mozambique — slow, atmospheric novel interrogating colonial power. No confirmed English translation.",
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "Mulheres de Cinzas",
+    "a": "Mia Couto",
+    "c": "Mozambique",
+    "y": 2015,
+    "g": "Novel",
+    "en": "Woman of the Ashes (FSG, 2018, tr. David Brookshaw)",
+    "bl": "First of the Sands of the Emperor trilogy: a Mozambican woman and Portuguese soldier narrate as colonial conquest unfolds.",
+    "editions": {
+      "en": [
+        {
+          "isbn": "9780374292270",
+          "year": 2018
+        },
+        {
+          "isbn": "9781250309297"
+        }
+      ],
+      "pt": [
+        {
+          "isbn": "9788535926620",
+          "year": 2015,
+          "pub": "Companhia das Letras"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "O Bebedor de Horizontes",
+    "a": "Mia Couto",
+    "c": "Mozambique",
+    "y": 2017,
+    "g": "Novel",
+    "en": "The Drinker of Horizons (FSG, 2020, tr. David Brookshaw)",
+    "bl": "Third and final volume of the Sands of the Emperor trilogy: the 1895 war reaches its conclusion as Imani and Germano's fates converge in the ruins of the Gaza Empire.",
+    "editions": {
+      "en": [
+        {
+          "isbn": "9781250321695",
+          "year": 2024,
+          "pub": "Picador"
+        },
+        {
+          "isbn": "9781912987375",
+          "year": 2023,
+          "pub": "World International Publishing"
+        },
+        {
+          "isbn": "9780374605544",
+          "year": 2023,
+          "pub": "Farrar, Straus & Giroux"
+        }
+      ],
+      "pt": [
+        {
+          "isbn": "9788535930641",
+          "year": 2018,
+          "pub": "Companhia das Letras"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "Jesusalém",
+    "a": "Mia Couto",
+    "c": "Mozambique",
+    "y": 2009,
+    "g": "Novel",
+    "en": "Jesusalem (Biblioasis, 2012, tr. David Brookshaw)",
+    "aw": "Camões Prize 2013 (career)",
+    "cite_url": "https://pt.wikipedia.org/wiki/Pr%C3%A9mio_Cam%C3%B5es",
+    "bl": "A father keeps his sons isolated in the wilderness — when a woman arrives everything unravels. Richly symbolic.",
+    "buy": [
+      "sp",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "Pensatempos",
+    "a": "Mia Couto",
+    "c": "Mozambique",
+    "y": 1990,
+    "g": "Chronicles",
+    "bl": "Newspaper chronicles meditating on language, identity and everyday Mozambican life.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9789722116879",
+          "year": 2005,
+          "pub": "Ndjira"
+        },
+        {
+          "isbn": "9722116878",
+          "year": 2005,
+          "pub": "Editorial Caminho"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "Cronicando",
+    "a": "Mia Couto",
+    "c": "Mozambique",
+    "y": 1988,
+    "g": "Chronicles",
+    "bl": "Early journalistic chronicles that established Mia Couto's reputation as a prose stylist and social observer.",
+    "editions": {
+      "es": [
+        {
+          "isbn": "9788481360134",
+          "year": 1997,
+          "pub": "Txalaparta"
+        }
+      ],
+      "pt": [
+        {
+          "isbn": "9789024796045",
+          "year": 2008,
+          "pub": "Ndjira"
+        },
+        {
+          "isbn": "972210585X",
+          "year": 1991,
+          "pub": "Caminho"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "E se Obama fosse africano",
+    "a": "Mia Couto",
+    "c": "Mozambique",
+    "y": 2009,
+    "g": "Essays",
+    "bl": "Essays on Africa, identity and global politics following Obama's election — characteristically playful and sharp.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9789024796212",
+          "year": 2009,
+          "pub": "Editorial Ndjira"
+        },
+        {
+          "isbn": "9789024796212",
+          "year": 2009,
+          "pub": "Editorial Ndjira"
+        },
+        {
+          "isbn": "9789024796212",
+          "year": 2009,
+          "pub": "Editorial Ndjira"
+        }
+      ]
+    },
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "Compêndio para Desencantar Amores",
+    "a": "Mia Couto",
+    "c": "Mozambique",
+    "y": 2003,
+    "g": "Chronicles",
+    "bl": "Collection of Couto's celebrated newspaper chronicles on love, language and African life.",
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "A Água e a Água",
+    "a": "Mia Couto",
+    "c": "Mozambique",
+    "y": 2023,
+    "g": "Short stories",
+    "bl": "Recent Mia Couto stories continuing his lyrical exploration of Mozambican realities.",
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "Niketche: Uma História de Poligamia",
+    "a": "Paulina Chiziane",
+    "c": "Mozambique",
+    "y": 2002,
+    "g": "Novel",
+    "en": "Niketche: A Story of Polygamy (Ayebia Clarke, 2021, tr. David Brookshaw)",
+    "aw": "Prémio José Craveirinha de Literatura 2003; Camões Prize 2021 (career)",
+    "cite_url": "https://pt.wikipedia.org/wiki/Pr%C3%A9mio_Cam%C3%B5es",
+    "bl": "A police officer's wife discovers his multiple relationships and decides to meet the other women — bold novel on polygamy and female autonomy.",
+    "buy": [
+      "sp",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "Ventos do Apocalipse",
+    "a": "Paulina Chiziane",
+    "c": "Mozambique",
+    "y": 1999,
+    "g": "Novel",
+    "bl": "Two communities — one fleeing soldiers, one fleeing drought — converge in catastrophe. Epic, biblical in scope.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9789722128162",
+          "year": 2021,
+          "pub": "Caminho",
+          "aw": "Camões Prize 2021 (career)",
+          "cite_url": "https://pt.wikipedia.org/wiki/Pr%C3%A9mio_Cam%C3%B5es"
+        },
+        {
+          "isbn": "9722112627",
+          "year": 1999,
+          "pub": "Caminho"
+        }
+      ]
+    },
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "Balada de Amor ao Vento",
+    "a": "Paulina Chiziane",
+    "c": "Mozambique",
+    "y": 1990,
+    "g": "Novel",
+    "bl": "First novel by a Mozambican woman: navigating love, marriage and freedom between tradition and modernity.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9789722115575",
+          "year": 2003,
+          "pub": "Editorial Caminho"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "O Alegre Canto da Perdiz",
+    "a": "Paulina Chiziane",
+    "c": "Mozambique",
+    "y": 2008,
+    "g": "Novel",
+    "bl": "A mulatta woman searches for her roots across Mozambican history from slavery to independence.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9789722119764",
+          "year": 2008,
+          "pub": "Editorial Caminho"
+        },
+        {
+          "isbn": "9789722121873",
+          "year": 2008,
+          "pub": "Caminho"
+        }
+      ]
+    },
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "Sangue Negro",
+    "a": "Noémia de Sousa",
+    "c": "Mozambique",
+    "y": 2001,
+    "g": "Poetry",
+    "aw": "Founding mother of Mozambican poetry",
+    "bl": "Seminal anti-colonial poems voicing Black identity and Pan-African solidarity. Circulated in mimeograph for 50 years before formal publication.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9789899746305",
+          "year": 2001,
+          "pub": "Marimbique"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "Nós Matámos o Cão-Tinhoso",
+    "a": "Luís Bernardo Honwana",
+    "c": "Mozambique",
+    "y": 1964,
+    "g": "Short stories",
+    "en": "We Killed Mangy-Dog (Heinemann, 1969, tr. Dorothy Guedes)",
+    "bl": "Written when Honwana was nineteen and under house arrest — stories of children in colonial Mozambique. Quietly devastating.",
+    "editions": {
+      "en": [
+        {
+          "isbn": "0949225622",
+          "year": 1987,
+          "pub": "Zimbabwe Pub. House"
+        },
+        {
+          "isbn": "0435900609",
+          "year": 1969,
+          "pub": "Heinemann Educational"
+        }
+      ],
+      "pt": [
+        {
+          "isbn": "9788568846308",
+          "year": 2017,
+          "pub": "Kapulana"
+        },
+        {
+          "isbn": "9789723605464",
+          "year": 2000,
+          "pub": "Edições Afrontamento"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "bk",
+      "ar",
+      "ab"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "O Galo Ruivo",
+    "a": "Lília Momplé",
+    "c": "Mozambique",
+    "y": 1997,
+    "g": "Short stories",
+    "bl": "Stories of urban Mozambican life, particularly women navigating domestic violence and poverty. Precise and politically alert.",
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "As Duas Sombras do Rio",
+    "a": "João Paulo Borges Coelho",
+    "c": "Mozambique",
+    "y": 2003,
+    "g": "Novel",
+    "bl": "Two men on opposite banks of the Zambezi watch a woman who connects them — about longing, land and the river as historical actor.",
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "Ponta Gea",
+    "a": "João Paulo Borges Coelho",
+    "c": "Mozambique",
+    "y": 2016,
+    "g": "Novel",
+    "bl": "Set in colonial Beira, reconstructing the layered social world of a coastal city through meticulous historical detail.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9789722128667",
+          "year": 2018,
+          "pub": "Caminho"
+        }
+      ]
+    },
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "A Mulher Sobressalente",
+    "a": "Dany Wambire",
+    "c": "Mozambique",
+    "y": 2018,
+    "g": "Short stories",
+    "bl": "Ten stories exposing Mozambican patriarchal traditions. The title story: a woman forced to bear a child with her brother-in-law to produce a male heir.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9789898901019",
+          "year": 2018,
+          "pub": "Editorial Fundza"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "O Osso Côncavo e Outros Poemas",
+    "a": "Luís Carlos Patraquim",
+    "c": "Mozambique",
+    "y": 2005,
+    "g": "Poetry",
+    "aw": "Oceanos shortlist 2018; Prémio Nacional de Poesia Moçambique 1995",
+    "bl": "Considered 'probably the greatest living Mozambican poet' — interweaves memory, jazz rhythms and atmospheric Maputo.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9722116746",
+          "year": 2004,
+          "pub": "Editorial Caminho"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "Pemba para Incendiários Crónicos",
+    "a": "Luís Carlos Patraquim",
+    "c": "Mozambique",
+    "y": 2012,
+    "g": "Poetry",
+    "bl": "Later Patraquim collection — 'Pemba for chronic arsonists' — poetry of provocation and combustion.",
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "O Advogado de Inhassunge",
+    "a": "Luís Laforte",
+    "c": "Mozambique",
+    "y": 2008,
+    "g": "Novel",
+    "bl": "A Mozambican lawyer in a provincial town navigates the complex legacies of independence and traditional authority.",
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "Um Pássaro na Lua",
+    "a": "Aldino Muianga",
+    "c": "Mozambique",
+    "y": 2003,
+    "g": "Short stories",
+    "unc": true,
+    "bl": "Short fiction by one of Mozambique's most prolific story-writers, blending tradition and modernity.",
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "Neighbours / Vizinhos",
+    "a": "Aldino Muianga",
+    "c": "Mozambique",
+    "y": 2010,
+    "g": "Novel",
+    "unc": true,
+    "bl": "Novel exploring the tensions of urban Mozambican neighbourhood life.",
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "O Último Olhar de Manú Miranda",
+    "a": "Orlando da Costa",
+    "c": "Goa/Portugal",
+    "y": 2000,
+    "g": "Novel",
+    "aw": "Prémio Eça de Queiroz",
+    "bl": "Set in Portuguese Goa's final decades — explores memory and ancestral identity. Father of former European Council President António Costa.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9727800521",
+          "year": 2000,
+          "pub": "Ancora Editora"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "A Minha História",
+    "a": "Virgínia Tembe",
+    "c": "Mozambique",
+    "y": 2018,
+    "g": "Memoir",
+    "unc": true,
+    "bl": "Personal narrative of life across decades of political change in Mozambique.",
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "moz",
+    "t": "Mundo Grave [poetry series]",
+    "a": "Heliodora Afonso",
+    "c": "Mozambique",
+    "y": 2010,
+    "g": "Poetry",
+    "unc": true,
+    "bl": "Mozambican poetry series exploring grief and the weight of mortality.",
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "cv",
+    "t": "O Testamento do Sr. Napumoceno da Silva Araújo",
+    "a": "Germano Almeida",
+    "c": "Cape Verde",
+    "y": 1989,
+    "g": "Novel",
+    "en": "The Last Will and Testament of Senhor da Silva Araújo (Heinemann, 1991)",
+    "bl": "A Cape Verdean merchant's scandalous will reveals a secret life. A Dickensian comic masterpiece of São Vicente social life.",
+    "buy": [
+      "sp",
+      "bk",
+      "ar",
+      "lb"
+    ],
+    "aw": "Camões Prize 2018 (career)",
+    "cite_url": "https://pt.wikipedia.org/wiki/Pr%C3%A9mio_Cam%C3%B5es"
+  },
+  {
+    "s": "cv",
+    "t": "O Meu Poeta",
+    "a": "Germano Almeida",
+    "c": "Cape Verde",
+    "y": 1992,
+    "g": "Novel",
+    "bl": "Gentle, warm novel about an amateur poet on São Vicente and the community that forms around his work.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9722107860",
+          "year": 1992,
+          "pub": "Caminho"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "cv",
+    "t": "Os Dois Irmãos",
+    "a": "Germano Almeida",
+    "c": "Cape Verde",
+    "y": 1995,
+    "g": "Novel",
+    "bl": "Two brothers — one successful, one dissolute — reflect on diverging lives. A study in Cape Verdean masculinity.",
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "cv",
+    "t": "A Ilha Fantástica",
+    "a": "Germano Almeida",
+    "c": "Cape Verde",
+    "y": 1994,
+    "g": "Short stories",
+    "bl": "Stories blending realism and the marvellous set on the Cape Verde archipelago.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9722109170",
+          "year": 1994,
+          "pub": "Caminho"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "cv",
+    "t": "Um Estranho em Goa",
+    "a": "Germano Almeida",
+    "c": "Cape Verde",
+    "y": 2004,
+    "g": "Novel",
+    "bl": "A Cape Verdean travels to Goa and encounters the last traces of Portuguese colonial culture in India.",
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "cv",
+    "t": "O Fiel Defunto",
+    "a": "Germano Almeida",
+    "c": "Cape Verde",
+    "y": 1993,
+    "g": "Novel",
+    "bl": "Picaresque comic novel — a dead man who refuses to stay dead causes social chaos across the islands.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9789722129282",
+          "year": 2018,
+          "pub": "Caminho"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "cv",
+    "t": "A Louvissa e os Trópicos",
+    "a": "Germano Almeida",
+    "c": "Cape Verde",
+    "y": 2000,
+    "g": "Novel",
+    "bl": "Novel exploring the island's complex relationship with tropical identity and colonial legacy.",
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "cv",
+    "t": "Entretas de Teatro de Casa",
+    "a": "Germano Almeida",
+    "c": "Cape Verde",
+    "y": 2007,
+    "g": "Drama/prose",
+    "bl": "Theatrical texts and domestic scenes from Germano Almeida's playful Cape Verdean world.",
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "cv",
+    "t": "Chiquinho",
+    "a": "Manuel Lopes",
+    "c": "Cape Verde",
+    "y": 1947,
+    "g": "Novel",
+    "bl": "The foundational Cape Verdean novel: a boy's coming-of-age on São Nicolau island, shadowed by drought and emigration.",
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "cv",
+    "t": "Os Flagelados do Vento Leste",
+    "a": "Manuel Lopes",
+    "c": "Cape Verde",
+    "y": 1960,
+    "g": "Novel",
+    "bl": "A community devastated by the easterly wind that kills crops and provokes famine — stark naturalist novel of survival.",
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "cv",
+    "t": "Fantasmas e Fantasias do Brumário",
+    "a": "Arménio Vieira",
+    "c": "Cape Verde",
+    "y": 2014,
+    "g": "Poetry",
+    "aw": "Camões Prize 2009 — first Cape Verdean laureate",
+    "cite_url": "https://pt.wikipedia.org/wiki/Pr%C3%A9mio_Cam%C3%B5es",
+    "bl": "Poetic notebooks exploring literary myth and philosophical disenchantment — allusive, cosmopolitan, unusual in Cape Verdean letters.",
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "cv",
+    "t": "Vida Crioula",
+    "a": "Teobaldo Virgínio",
+    "c": "Cape Verde",
+    "y": 1967,
+    "g": "Novella",
+    "bl": "Classic Cape Verdean novella capturing rhythms of Creole island life in Santo Antão with poetic realism. Author died at 96 in 2020.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9789726999461",
+          "year": 2010,
+          "pub": "Vega"
+        }
+      ]
+    },
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "cv",
+    "t": "Naturados e Artefactos",
+    "a": "Haideia Avelino Pires",
+    "c": "Cape Verde",
+    "y": 2010,
+    "g": "Poetry",
+    "unc": true,
+    "bl": "Cape Verdean poetry collection exploring the boundaries between the natural and the constructed.",
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "cv",
+    "t": "Nexo e Nome",
+    "a": "Haideia Avelino Pires",
+    "c": "Cape Verde",
+    "y": 2014,
+    "g": "Poetry",
+    "unc": true,
+    "bl": "Second Haideia Avelino Pires collection: connections between naming and being in Cape Verdean verse.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9789898961136",
+          "year": 2020,
+          "pub": "Rosa de Porcelana"
+        }
+      ]
+    },
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "oaf",
+    "t": "No Encanto da Ilha",
+    "a": "Samira Lélis",
+    "c": "Sao Tome",
+    "y": 2019,
+    "g": "Novel",
+    "bl": "A novel from São Tomé e Príncipe exploring island life, colonial memory and female experience.",
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "oaf",
+    "t": "Guerra Colonial",
+    "a": "Aniceto Afonso & Carlos de Matos Gomes",
+    "c": "Portugal",
+    "y": 2000,
+    "g": "Non-fiction",
+    "bl": "Comprehensive history of Portugal's colonial wars (1961–74) by two veteran officers — the definitive reference on Angola, Mozambique and Guinea-Bissau.",
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "oaf",
+    "t": "Gungunhana",
+    "a": "Various",
+    "c": "Mozambique",
+    "y": 2015,
+    "g": "History",
+    "unc": true,
+    "bl": "Study of Gungunhana, last Gaza king, and his resistance to Portuguese colonialism.",
+    "buy": [
+      "sp",
+      "ab"
+    ]
+  },
+  {
+    "s": "oaf",
+    "t": "Kintotela Kya Kongo [series]",
+    "a": "Various",
+    "c": "Angola",
+    "y": 2010,
+    "g": "Cultural studies",
+    "unc": true,
+    "bl": "Series on Kongo cultural heritage and oral traditions.",
+    "buy": [
+      "sp"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Dona Flor e Seus Dois Maridos",
+    "a": "Jorge Amado",
+    "c": "Brazil",
+    "y": 1966,
+    "g": "Novel",
+    "en": "Dona Flor and Her Two Husbands (Knopf, 1969, tr. Harriet de Onís)",
+    "bl": "A Bahian cooking teacher haunted by her dissolute first husband's ghost after remarrying — exuberant, sensual comedy of desire, food and magic.",
+    "buy": [
+      "cl",
+      "bk",
+      "hv",
+      "lb",
+      "ar"
+    ],
+    "aw": "Camões Prize 1994 (career)",
+    "cite_url": "https://pt.wikipedia.org/wiki/Pr%C3%A9mio_Cam%C3%B5es"
+  },
+  {
+    "s": "bf",
+    "t": "Capitães da Areia",
+    "a": "Jorge Amado",
+    "c": "Brazil",
+    "y": 1937,
+    "g": "Novel",
+    "en": "Captains of the Sands (Penguin Classics, 2013, tr. Gregory Rabassa)",
+    "aw": "Camões Prize 1995 (career); 808 copies burned by Vargas, 1937",
+    "bl": "A gang of street children on Salvador's docks — his all-time bestseller at 4.3 million copies and a foundational Afro-Brazilian novel.",
+    "buy": [
+      "cl",
+      "bk",
+      "hv",
+      "lb",
+      "ar"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Jubiabá",
+    "a": "Jorge Amado",
+    "c": "Brazil",
+    "y": 1935,
+    "g": "Novel",
+    "en": "Jubiabá (Avon, 1984, tr. Margaret A. Neves)",
+    "bl": "A young Black man from Bahia's slums becomes a boxer and political activist — steeped in Candomblé, capoeira and Afro-Brazilian resistance.",
+    "editions": {
+      "en": [
+        {
+          "isbn": "0380885670",
+          "year": 1984,
+          "pub": "Avon Books",
+          "tr": "Margaret A"
+        }
+      ],
+      "es": [
+        {
+          "isbn": "840142643X",
+          "year": 1994,
+          "pub": "Plaza & Janés Editores"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "ar",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Terras do Sem-Fim",
+    "a": "Jorge Amado",
+    "c": "Brazil",
+    "y": 1943,
+    "g": "Novel",
+    "en": "The Violent Land (Knopf, 1945, tr. Samuel Putnam)",
+    "bl": "Two families fight for land in the Bahian cacao zone — Amado's grimmest novel: a saga of violence, greed and forest clearing.",
+    "buy": [
+      "cl",
+      "bk",
+      "lb",
+      "ar"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "São Jorge dos Ilhéus",
+    "a": "Jorge Amado",
+    "c": "Brazil",
+    "y": 1944,
+    "g": "Novel",
+    "en": "The Golden Harvest (Avon, 1992)",
+    "bl": "Sequel to Terras do Sem-Fim: the decline of the Bahian cacao barons as foreign capital takes over the trade.",
+    "buy": [
+      "cl",
+      "ar",
+      "ab"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "O Sumiço da Santa",
+    "a": "Jorge Amado",
+    "c": "Brazil",
+    "y": 1988,
+    "g": "Novel",
+    "en": "The War of the Saints (Bantam, 1993, tr. Gregory Rabassa)",
+    "bl": "The Virgin Mary's statue joins the Candomblé orishas — late Amado celebrating Bahian religious syncretism.",
+    "buy": [
+      "cl",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "O Compadre de Ogum",
+    "a": "Jorge Amado",
+    "c": "Brazil",
+    "y": 1964,
+    "g": "Novel",
+    "en": "Shepherds of the Night (Knopf, 1967, tr. Harriet de Onís)",
+    "bl": "Bahian bohemians, prostitutes and capoeira fighters under the protection of the Candomblé deity Ogum.",
+    "buy": [
+      "cl",
+      "bk",
+      "ar",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "A Morte e a Morte de Quincas Berro Dágua",
+    "a": "Jorge Amado",
+    "c": "Brazil",
+    "y": 1959,
+    "g": "Novella",
+    "en": "The Two Deaths of Quincas Wateryell (Avon, 1965)",
+    "bl": "A dead Bahian man apparently gets up from his wake and returns to his bohemian life — a delirious carnivalesque fable.",
+    "editions": {
+      "es": [
+        {
+          "isbn": "9500403137",
+          "year": 1984,
+          "pub": "Emecé"
+        }
+      ],
+      "pt": [
+        {
+          "isbn": "8501004847",
+          "year": 1990,
+          "pub": "Editora Record"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "ar",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Suor",
+    "a": "Jorge Amado",
+    "c": "Brazil",
+    "y": 1934,
+    "g": "Novel",
+    "bl": "Social realist portrait of a crowded tenement in Salvador, Bahia — Amado's proletarian third novel.",
+    "editions": {
+      "es": [
+        {
+          "isbn": "8420601020",
+          "year": 1985,
+          "pub": "Alianza Editorial"
+        }
+      ],
+      "fr": [
+        {
+          "isbn": "9782070384266",
+          "year": 1991,
+          "pub": "Gallimard"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "ar",
+      "ab"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Os Velhos Marinheiros",
+    "a": "Jorge Amado",
+    "c": "Brazil",
+    "y": 1961,
+    "g": "Novel",
+    "en": "Home is the Sailor (Knopf, 1964)",
+    "bl": "Two novellas set in Bahia's port town Ilhéus: the captain who reinvents himself and the miraculous saint.",
+    "buy": [
+      "cl",
+      "ab"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Cacau",
+    "a": "Jorge Amado",
+    "c": "Brazil",
+    "y": 1933,
+    "g": "Novel",
+    "bl": "Brutal lives of labourers on cacao plantations. The first edition was seized by police as 'socialist literature'.",
+    "editions": {
+      "es": [
+        {
+          "isbn": "9788420618616",
+          "year": 1999,
+          "pub": "Alianza"
+        },
+        {
+          "isbn": "8420618616",
+          "year": 1995,
+          "pub": "Losada"
+        },
+        {
+          "isbn": "9802761559",
+          "year": 1991,
+          "pub": "Biblioteca Ayacucho"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "ar",
+      "ab"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Estorvo",
+    "a": "Chico Buarque",
+    "c": "Brazil",
+    "y": 1991,
+    "g": "Novel",
+    "en": "Turbulence (Bloomsbury, 1992, tr. Peter Bush)",
+    "bl": "An unnamed narrator drifts through a Kafkaesque Rio, pursued by vague threats — Brazil's most celebrated songwriter's startling novelistic debut.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788571641846",
+          "year": 1999,
+          "pub": "Luso Brazilian Books"
+        }
+      ],
+      "aw": "Camões Prize 2019 (career)",
+      "cite_url": "https://pt.wikipedia.org/wiki/Pr%C3%A9mio_Cam%C3%B5es"
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Benjamim",
+    "a": "Chico Buarque",
+    "c": "Brazil",
+    "y": 1995,
+    "g": "Novel",
+    "en": "Benjamin (Grove Press, 1997, tr. Clifford E. Landers)",
+    "bl": "A former model becomes obsessed with a young woman who resembles his dead lover from the years of military dictatorship.",
+    "editions": {
+      "es": [
+        {
+          "isbn": "9590400647",
+          "year": 1998,
+          "pub": "Fondo Editorial Casa de las Américas"
+        }
+      ],
+      "pt": [
+        {
+          "isbn": "8571645027",
+          "year": 1995,
+          "pub": "Companhia das Letras"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Budapeste",
+    "a": "Chico Buarque",
+    "c": "Brazil",
+    "y": 2003,
+    "g": "Novel",
+    "en": "Budapest (Grove Press, 2004, tr. Alison Entrekin)",
+    "aw": "Jabuti Prize 2004",
+    "bl": "A ghostwriter travels to Budapest and becomes entangled in a double life across two languages and two cities.",
+    "editions": {
+      "en": [
+        {
+          "isbn": "9780802142146",
+          "year": 2005,
+          "pub": "Grove Press"
+        },
+        {
+          "isbn": "9780802117823",
+          "year": 2004,
+          "pub": "Grove Press"
+        }
+      ],
+      "es": [
+        {
+          "isbn": "9788478889402",
+          "year": 2005,
+          "pub": "Salamandra"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Bambino a Roma",
+    "a": "Chico Buarque",
+    "c": "Brazil",
+    "y": 2024,
+    "g": "Novel",
+    "bl": "A memoir-novel of Buarque's childhood in Rome in 1953–54: bicycle routes mapped on a bedroom wall, first desires, letters to a schoolgirl called Sandy L., and Vargas's suicide heard from afar. Published when he was 80.",
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Leite Derramado",
+    "a": "Chico Buarque",
+    "c": "Brazil",
+    "y": 2009,
+    "g": "Novel",
+    "en": "Spilt Milk (Grove Press, 2012, tr. Clifford Landers)",
+    "aw": "Jabuti Prize 2010",
+    "bl": "A centenarian patriarch dictates his memoirs to an unseen listener, his narrative dissolving into unreliable memory and racial fantasy — Buarque's most formally ambitious novel.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788535914115",
+          "year": 2009,
+          "pub": "Companhia das Letras"
+        }
+      ],
+      "en": [
+        {
+          "isbn": "9780802122001"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "O Irmão Alemão",
+    "a": "Chico Buarque",
+    "c": "Brazil",
+    "y": 2014,
+    "g": "Novel",
+    "en": "My German Brother (Grove Press, 2017, tr. Flora Thomson-DeVeaux)",
+    "bl": "A young man in 1970s Rio discovers evidence of a half-brother in Nazi Germany — based loosely on Buarque's own family history.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788535925159",
+          "year": 2014,
+          "pub": "Companhia das Letras"
+        }
+      ],
+      "en": [
+        {
+          "isbn": "9781250214898"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Anos de Chumbo",
+    "a": "Chico Buarque",
+    "c": "Brazil",
+    "y": 2022,
+    "g": "Novel",
+    "en": "Lead Years (Grove Press, 2024, tr. Flora Thomson-DeVeaux)",
+    "bl": "An ageing man pieces together fragmentary memories of the years of Brazilian military dictatorship.",
+    "buy": [
+      "cl",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Memórias Póstumas de Brás Cubas",
+    "a": "Machado de Assis",
+    "c": "Brazil",
+    "y": 1881,
+    "g": "Novel",
+    "en": "The Posthumous Memoirs of Brás Cubas (Oxford, 2020, tr. Flora Thomson-DeVeaux)",
+    "bl": "A deceased man narrates his life with mordant cynicism from beyond the grave — the founding text of Brazilian realism, startlingly modern.",
+    "editions": {
+      "ca": [
+        {
+          "isbn": "9788477273530",
+          "year": 2001,
+          "pub": "Quaderns Crema"
+        }
+      ],
+      "de": [
+        {
+          "isbn": "9783717520191",
+          "year": 2003,
+          "pub": "Manesse-Vlg., Stuttgart"
+        },
+        {
+          "isbn": "9783717520184",
+          "year": 2003,
+          "pub": "Manesse"
+        }
+      ],
+      "en": [
+        {
+          "isbn": "9781324090502",
+          "year": 2021,
+          "pub": "Liveright Publishing Corporation"
+        },
+        {
+          "isbn": "9781631495335",
+          "year": 2020,
+          "pub": "Liveright Publishing Corporation"
+        },
+        {
+          "isbn": "9798650668909",
+          "year": 2020,
+          "pub": "Independently Published"
+        }
+      ],
+      "ep": [
+        {
+          "isbn": "9788567422114",
+          "year": 2019,
+          "pub": "EASP"
+        }
+      ],
+      "es": [
+        {
+          "isbn": "9789681676803",
+          "year": 2006,
+          "pub": "Fondo de Cultura Economica USA"
+        },
+        {
+          "isbn": "9788420655109",
+          "year": 2005,
+          "pub": "Alianza Editorial Sa"
+        },
+        {
+          "isbn": "9789505151905",
+          "year": 2003,
+          "pub": "De La Flor"
+        }
+      ],
+      "fr": [
+        {
+          "isbn": "9781521795453",
+          "year": 2017,
+          "pub": "Independently Published"
+        },
+        {
+          "isbn": "9782864243526",
+          "year": 2000,
+          "pub": "Métailié"
+        }
+      ],
+      "pt": [
+        {
+          "isbn": "9798828345991",
+          "year": 2022,
+          "pub": "Independently Published"
+        },
+        {
+          "isbn": "9798828455782",
+          "year": 2022,
+          "pub": "Independently Published"
+        },
+        {
+          "isbn": "9798743196807",
+          "year": 2021,
+          "pub": "Independently Published"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "ar",
+      "dp",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Dom Casmurro",
+    "a": "Machado de Assis",
+    "c": "Brazil",
+    "y": 1899,
+    "g": "Novel",
+    "en": "Dom Casmurro (Oxford, 1997, tr. John Gledson)",
+    "bl": "An aging man reconstructs his marriage to Capitu — one of literature's most debated characters. Did she betray him?",
+    "editions": {
+      "en": [
+        {
+          "isbn": "9781324095149",
+          "year": 2024,
+          "pub": "Liveright Publishing Corporation"
+        },
+        {
+          "isbn": "9781324090700",
+          "year": 2023,
+          "pub": "Liveright Publishing Corporation"
+        },
+        {
+          "isbn": "9781324090717",
+          "year": 2023,
+          "pub": "Liveright Publishing Corporation"
+        }
+      ],
+      "fr": [
+        {
+          "isbn": "9782864244127",
+          "year": 2002,
+          "pub": "Métailié"
+        },
+        {
+          "isbn": "9782253932680",
+          "year": 1997,
+          "pub": "LGF"
+        }
+      ],
+      "pt": [
+        {
+          "isbn": "9798830903882",
+          "year": 2022,
+          "pub": "Independently Published"
+        },
+        {
+          "isbn": "9781678165260",
+          "year": 2022,
+          "pub": "Lulu Press, Inc."
+        },
+        {
+          "isbn": "9798458453264",
+          "year": 2021,
+          "pub": "Independently Published"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "ar",
+      "dp",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "O Alienista",
+    "a": "Machado de Assis",
+    "c": "Brazil",
+    "y": 1882,
+    "g": "Novella",
+    "en": "The Alienist (Melville House, 2013, tr. William L. Grossman) / The Psychiatrist (UC Press, 1963)",
+    "bl": "Dr Simão Bacamarte returns to the small town of Itaguaí, establishes an asylum, and progressively expands his definition of madness until most of the town is locked up — then turns the logic on itself. A devastating satire of scientific rationalism and the arbitrary nature of normality. Often cited as one of the finest novellas in any language.",
+    "buy": [
+      "cl",
+      "bk",
+      "hv",
+      "ar",
+      "dp",
+      "lb",
+      "ab"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "A Paixão Segundo G.H.",
+    "a": "Clarice Lispector",
+    "c": "Brazil",
+    "y": 1964,
+    "g": "Novel",
+    "en": "The Passion According to G.H. (New Directions, 1988, tr. Ronald W. Sousa)",
+    "bl": "A society woman kills a cockroach and is plunged into metaphysical crisis — relentless ecstatic monologue about disgust and transcendence. Her masterpiece.",
+    "editions": {
+      "ca": [
+        {
+          "isbn": "9788497871938",
+          "year": 2006,
+          "pub": "Empúries"
+        }
+      ],
+      "en": [
+        {
+          "isbn": "9780241600566",
+          "year": 2022,
+          "pub": "Penguin Books, Limited"
+        },
+        {
+          "isbn": "9780141197357",
+          "year": 2014,
+          "pub": "Penguin Books, Limited"
+        },
+        {
+          "isbn": "9780811219686",
+          "year": 2012,
+          "pub": "New Directions",
+          "tr": "Idra Novey"
+        }
+      ],
+      "es": [
+        {
+          "isbn": "9788415803584",
+          "year": 2021,
+          "pub": "Siruela"
+        },
+        {
+          "isbn": "9788415803584",
+          "year": 2013,
+          "pub": "Siruela"
+        }
+      ],
+      "pt": [
+        {
+          "isbn": "9788532508096",
+          "year": 2009,
+          "pub": "Rocco"
+        },
+        {
+          "isbn": "9789727085637",
+          "year": 2000,
+          "pub": "Relógio D'Água"
+        },
+        {
+          "isbn": "853250809X",
+          "year": 1998,
+          "pub": "Rocco"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "lb",
+      "ar"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "A Hora da Estrela",
+    "a": "Clarice Lispector",
+    "c": "Brazil",
+    "y": 1977,
+    "g": "Novel",
+    "en": "The Hour of the Star (Carcanet, 1986, tr. Giovanni Pontiero)",
+    "bl": "A male narrator tells the story of Macabéa, a migrant girl in Rio — Lispector's final novel: meditation on narration, poverty and the ethics of fiction.",
+    "editions": {
+      "en": [
+        {
+          "isbn": "9780241600573",
+          "year": 2022,
+          "pub": "Penguin Books, Limited"
+        },
+        {
+          "isbn": "9780811230995",
+          "year": 2020,
+          "pub": "New Directions Publishing Corporation"
+        },
+        {
+          "isbn": "9780811230049",
+          "year": 2020,
+          "pub": "Norton & Company Limited, W. W."
+        },
+        {
+          "isbn": "9780811219495"
+        }
+      ],
+      "es": [
+        {
+          "isbn": "9788416120796",
+          "year": 2021,
+          "pub": "Siruela"
+        },
+        {
+          "isbn": "9788478445103",
+          "year": 2000,
+          "pub": "Siruela"
+        },
+        {
+          "isbn": "9788478440092",
+          "year": 1992,
+          "pub": "Siruela"
+        }
+      ],
+      "pt": [
+        {
+          "isbn": "9786555320350",
+          "year": 2019,
+          "pub": "Rocco"
+        },
+        {
+          "isbn": "9788532530660",
+          "year": 2017,
+          "pub": "Rocco"
+        },
+        {
+          "isbn": "9788532521279",
+          "year": 2006,
+          "pub": "Rocco"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Todas as Crônicas",
+    "a": "Clarice Lispector",
+    "c": "Brazil",
+    "y": 2018,
+    "g": "Chronicles",
+    "bl": "Collected newspaper chronicles — intimate, strange, funny and wise. A domestic, self-deprecating, infinitely curious Lispector.",
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Todas as Cartas",
+    "a": "Clarice Lispector",
+    "c": "Brazil",
+    "y": 2020,
+    "g": "Letters",
+    "bl": "Complete letters of Clarice Lispector, revealing a more vulnerable and professionally complex woman than the hermetic novelist of legend.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9786555320091",
+          "year": 2019,
+          "pub": "Miputa"
+        }
+      ]
+    },
+    "buy": [
+      "cl"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Vidas Secas",
+    "a": "Graciliano Ramos",
+    "c": "Brazil",
+    "y": 1938,
+    "g": "Novel",
+    "en": "Barren Lives (University of Texas Press, 1965, tr. Ralph Edward Dimmick)",
+    "bl": "A family of nordestinos and their dog migrate across the parched sertão — fragmentary episodes including one narrated from the dog's point of view.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9786580210886",
+          "year": 2024,
+          "pub": "Antofágica"
+        },
+        {
+          "isbn": "9788501005588",
+          "year": 2002,
+          "pub": "editoria record"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "ar",
+      "dp",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Memórias do Cárcere",
+    "a": "Graciliano Ramos",
+    "c": "Brazil",
+    "y": 1953,
+    "g": "Memoir",
+    "en": "Prison Memoirs (Soho Press, 2019, tr. Thomas Colchie)",
+    "bl": "Ramos's account of his imprisonment by Vargas's regime 1936–37 — honest, unflinching and devoid of heroism.",
+    "editions": {
+      "en": [
+        {
+          "isbn": "9781619654105",
+          "year": 2023,
+          "pub": "Montecristo Publishing LLC"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "ar",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "S. Bernardo",
+    "a": "Graciliano Ramos",
+    "c": "Brazil",
+    "y": 1934,
+    "g": "Novel",
+    "en": "São Bernardo (Calderbooks, 1975)",
+    "bl": "A brutal landowner narrates his life and the destruction of his marriage — a study in unreliable narration and patriarchal violence.",
+    "editions": {
+      "en": [
+        {
+          "isbn": "9781619654129",
+          "year": 2023,
+          "pub": "Montecristo Publishing LLC"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "ar",
+      "dp",
+      "ab"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Caetés",
+    "a": "Graciliano Ramos",
+    "c": "Brazil",
+    "y": 1933,
+    "g": "Novel",
+    "bl": "Ramos's debut: a small-town clerk attempts to write a novel about the Caeté Indians while entangled in adultery.",
+    "editions": {
+      "en": [
+        {
+          "isbn": "9781619654136",
+          "year": 2023,
+          "pub": "Montecristo Publishing LLC"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "ar",
+      "dp"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Grande Sertão: Veredas",
+    "a": "João Guimarães Rosa",
+    "c": "Brazil",
+    "y": 1956,
+    "g": "Novel",
+    "en": "The Devil to Pay in the Backlands (Knopf, 1963, tr. James L. Taylor & Harriet de Onís)",
+    "bl": "A retired bandit delivers an unbroken monologue — a linguistic tornado in which Rosa invents language itself. Among the greatest 20th-century novels.",
+    "buy": [
+      "cl",
+      "bk",
+      "ar",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "O Tempo e o Vento",
+    "a": "Erico Verissimo",
+    "c": "Brazil",
+    "y": 1949,
+    "g": "Novel",
+    "en": "Time and the Wind (Macmillan, 1951 — first volume only)",
+    "bl": "Trilogy spanning 200 years of Rio Grande do Sul history — monumental Brazilian historical fiction, beloved in the south.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "8525000108",
+          "year": 1984,
+          "pub": "Editora Globo"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "ar",
+      "ab"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "As Mentiras que os Homens Contam",
+    "a": "Luis Fernando Veríssimo",
+    "c": "Brazil",
+    "y": 2000,
+    "g": "Chronicles",
+    "bl": "Brazil's most popular humorist on the everyday lies men tell — to mothers, wives and friends. Ironic brevity and warmth.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "8573023384",
+          "year": 2000,
+          "pub": "Objetiva"
+        },
+        {
+          "isbn": "9788573023381"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Torto Arado",
+    "a": "Itamar Vieira Junior",
+    "c": "Brazil",
+    "y": 2019,
+    "g": "Novel",
+    "en": "Crooked Plow (Verso, 2023, tr. Johnny Lorenz)",
+    "aw": "Jabuti Prize 2020; Oceanos Prize 2020; LeYa Prize 2018; International Booker shortlist 2024",
+    "cite_url": "https://thebookerprizes.com/the-booker-library/books/crooked-plow",
+    "bl": "Two sisters on a quilombo-descended settlement carry a trauma whose source is gradually revealed — land, Afro-Brazilian religion and slavery's afterlives.",
+    "editions": {
+      "en": [
+        {
+          "isbn": "9781839766404",
+          "year": 2023,
+          "pub": "Verso Books"
+        },
+        {
+          "isbn": "9781839766428",
+          "year": 2023,
+          "pub": "Verso"
+        }
+      ],
+      "pt": [
+        {
+          "isbn": "9789896605773",
+          "year": 2019,
+          "pub": "Leya"
+        },
+        {
+          "isbn": "9786580309313",
+          "pub": "Todavia"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "hv",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Salvar o Fogo",
+    "a": "Itamar Vieira Junior",
+    "c": "Brazil",
+    "y": 2022,
+    "g": "Novel",
+    "bl": "A couple on a remote farm confront forces — human and supernatural — that threaten everything they have built.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9786556924175",
+          "year": 2023,
+          "pub": "Todavia"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Coração Sem Medo",
+    "a": "Itamar Vieira Junior",
+    "c": "Brazil",
+    "y": 2023,
+    "g": "Novel",
+    "bl": "Lyrical third novel continuing Vieira Junior's exploration of Afro-Brazilian rural life and resistance.",
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Doramar ou a Odisseia",
+    "a": "Itamar Vieira Junior",
+    "c": "Brazil",
+    "y": 2021,
+    "g": "Novel",
+    "bl": "A woman's odyssey through the Brazilian interior — ironic reimagining of classical epic rooted in Black Brazilian experience.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9786556921464",
+          "year": 2019,
+          "pub": "Todavia"
+        }
+      ]
+    },
+    "buy": [
+      "cl"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Quarto de Despejo",
+    "a": "Carolina Maria de Jesus",
+    "c": "Brazil",
+    "y": 1960,
+    "g": "Diary/memoir",
+    "en": "Child of the Dark (E.P. Dutton, 1962, tr. David St. Clair) / Beyond All Pity (UK)",
+    "aw": "1 million+ copies; translated into 40+ countries; foundational Afro-Brazilian literature",
+    "bl": "Diary by a Black single mother in São Paulo's Canindé favela. 10,000 copies sold in the first week — Brazil's biggest-ever bestseller at the time.",
+    "editions": {
+      "en": [
+        {
+          "isbn": "9780451529107",
+          "year": 2003,
+          "pub": "Signet Classics"
+        },
+        {
+          "isbn": "0451529103",
+          "year": 2003,
+          "pub": "New American Library"
+        },
+        {
+          "isbn": "9780451627315",
+          "year": 1963,
+          "pub": "Signet"
+        }
+      ],
+      "pt": [
+        {
+          "isbn": "9788508196555",
+          "year": 2021,
+          "pub": "Ática"
+        },
+        {
+          "isbn": "9788508043637",
+          "year": 2001,
+          "pub": "Ática"
+        },
+        {
+          "isbn": "9788508105311",
+          "year": 1993,
+          "pub": "Atica"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "hv",
+      "ar",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Um Defeito de Cor",
+    "a": "Ana Maria Gonçalves",
+    "c": "Brazil",
+    "y": 2006,
+    "g": "Novel",
+    "aw": "Casa de las Américas Prize; Jabuti finalist",
+    "bl": "Epic 950-page historical novel narrated by Kehinde, an enslaved woman separated from her son — meticulously reconstructed Afro-Brazilian life across two continents.",
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Memórias de um Sargento de Milícias",
+    "a": "Manuel Antônio de Almeida",
+    "c": "Brazil",
+    "y": 1854,
+    "g": "Novel",
+    "en": "Memoirs of a Militia Sergeant (Oxford, 1999, tr. Ronald W. Sousa)",
+    "bl": "Foundational picaresque set in Johannine Rio de Janeiro following the lovable rogue Leonardo — origin of the 'malandro' archetype.",
+    "editions": {
+      "en": [
+        {
+          "isbn": "019511549X",
+          "year": 1999,
+          "pub": "Oxford University Press"
+        }
+      ],
+      "es": [
+        {
+          "isbn": "9802760447",
+          "year": 1987,
+          "pub": "Biblioteca Ayacucho"
+        }
+      ],
+      "pt": [
+        {
+          "isbn": "9786556405704",
+          "year": 2022,
+          "pub": "Nova Fronteira"
+        },
+        {
+          "isbn": "9788563560728",
+          "year": 2013,
+          "pub": "Penguin"
+        },
+        {
+          "isbn": "9788563437013",
+          "year": 2010,
+          "pub": "Cidade Viva Editora"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "ar",
+      "dp"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "O Cortiço",
+    "a": "Aluísio Azevedo",
+    "c": "Brazil",
+    "y": 1890,
+    "g": "Novel",
+    "en": "The Slum (Oxford, 2000, tr. David H. Rosenthal)",
+    "bl": "The pinnacle of Brazilian naturalism: a Rio tenement as an organic, growing entity — searing portrait of race, class and greed.",
+    "buy": [
+      "cl",
+      "bk",
+      "ar",
+      "dp",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Casa de Pensão",
+    "a": "Aluísio Azevedo",
+    "c": "Brazil",
+    "y": 1884,
+    "g": "Novel",
+    "bl": "Azevedo's earlier naturalist novel: a boarding house in Rio as arena for social transgression and moral decay.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9781724076007",
+          "year": 2018,
+          "pub": "Independently Published"
+        },
+        {
+          "isbn": "9781512332483",
+          "year": 2015,
+          "pub": "The Perfect Library"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "ar",
+      "dp"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Lavoura Arcaica",
+    "a": "Raduan Nassar",
+    "c": "Brazil",
+    "y": 1975,
+    "g": "Novel",
+    "en": "Ancient Tillage (Penguin Classics, 2016, tr. Karen Sherwood Sotelino)",
+    "aw": "Camões Prize 2016 (career)",
+    "cite_url": "https://pt.wikipedia.org/wiki/Pr%C3%A9mio_Cam%C3%B5es",
+    "bl": "Through the parable of the Prodigal Son: a young man from a Lebanese immigrant farming family consumed by desire and rebellion against his patriarch.",
+    "editions": {
+      "en": [
+        {
+          "isbn": "9780141396781"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "O Vampiro de Curitiba",
+    "a": "Dalton Trevisan",
+    "c": "Brazil",
+    "y": 1965,
+    "g": "Short stories",
+    "en": "The Vampire of Curitiba (Knopf, 1972, tr. Gregory Rabassa)",
+    "aw": "Camões Prize 2012 (career)",
+    "cite_url": "https://pt.wikipedia.org/wiki/Pr%C3%A9mio_Cam%C3%B5es",
+    "bl": "Nelsinho, a sex-obsessed predator, prowls Curitiba — inverted moral fables in razor-sharp prose. Trevisan died December 2024, aged 99.",
+    "buy": [
+      "cl",
+      "bk",
+      "ar",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Fogo Morto",
+    "a": "José Lins do Rego",
+    "c": "Brazil",
+    "y": 1943,
+    "g": "Novel",
+    "bl": "Masterpiece of the Sugarcane Cycle: three protagonists embodying the collapse of Northeast Brazil's feudal plantation society after abolition.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "8503003392",
+          "year": 1991,
+          "pub": "J. Olympio Editora"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "ar",
+      "ab"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Menino de Engenho",
+    "a": "José Lins do Rego",
+    "c": "Brazil",
+    "y": 1932,
+    "g": "Novel",
+    "en": "Plantation Boy (Knopf, 1966, tr. Emmi Baum — omnibus)",
+    "bl": "First of the Sugarcane Cycle: a boy sent to his grandfather's plantation after witnessing his mother's violent death.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "8503003414",
+          "year": 1992,
+          "pub": "J. Olympio Editora"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "ar",
+      "ab"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Pedra Bonita",
+    "a": "José Lins do Rego",
+    "c": "Brazil",
+    "y": 1938,
+    "g": "Novel",
+    "bl": "Part of the 'cangaço cycle': messianic religious movements and banditry in the Brazilian sertão, drawn from real historical incidents.",
+    "buy": [
+      "cl",
+      "ar",
+      "ab"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Quarup",
+    "a": "Antônio Callado",
+    "c": "Brazil",
+    "y": 1967,
+    "g": "Novel",
+    "en": "Quarup (Knopf, 1970, tr. Barbara Shelby)",
+    "bl": "An idealistic priest dreams of a Jesuit utopia among the indigenous Xingu — the 1964 military coup shatters everything.",
+    "buy": [
+      "cl",
+      "bk",
+      "ar",
+      "ab"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Ainda Estou Aqui",
+    "a": "Marcelo Rubens Paiva",
+    "c": "Brazil",
+    "y": 2015,
+    "g": "Memoir",
+    "en": "I'm Still Here (forthcoming in English)",
+    "aw": "Jabuti Prize 2015; film: Oscar Best International Feature 2025",
+    "bl": "His mother Eunice Paiva reinvented herself as a human rights lawyer after her husband was disappeared by the dictatorship in 1971. Adapted by Walter Salles.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788579624162",
+          "year": 2014,
+          "pub": "Alfaguara"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "O Sol na Cabeça",
+    "a": "Geovani Martins",
+    "c": "Brazil",
+    "y": 2018,
+    "g": "Short stories",
+    "en": "The Sun on My Head (FSG / Faber, 2019, tr. Julia Sanches)",
+    "aw": "FT Book of the Year; Edinburgh First Book Award longlist",
+    "bl": "Boys and young men growing up in Rio's favelas. First Brazilian to sell translation rights to nine countries before a debut's release.",
+    "editions": {
+      "en": [
+        {
+          "isbn": "9780571348244"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "hv",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Barba Ensopada de Sangue",
+    "a": "Daniel Galera",
+    "c": "Brazil",
+    "y": 2012,
+    "g": "Novel",
+    "en": "Blood-Drenched Beard (Hamish Hamilton, 2014, tr. Alison Entrekin)",
+    "aw": "São Paulo Prize for Literature 2013",
+    "bl": "A face-blind young man moves to a coastal town to investigate his grandfather's unsolved murder — masterful existential noir.",
+    "editions": {
+      "en": [
+        {
+          "isbn": "9780143128366",
+          "year": 2016,
+          "pub": "Penguin Books"
+        },
+        {
+          "isbn": "9780241146156",
+          "year": 2015,
+          "pub": "Penguin Books, Limited"
+        },
+        {
+          "isbn": "9781594205743",
+          "year": 2015,
+          "pub": "Penguin Press"
+        },
+        {
+          "isbn": "9780241146132"
+        }
+      ],
+      "es": [
+        {
+          "isbn": "9788439728252",
+          "year": 2014,
+          "pub": "Random House"
+        }
+      ],
+      "fr": [
+        {
+          "isbn": "9782070143962",
+          "year": 2015,
+          "pub": "GALLIMARD"
+        }
+      ],
+      "pt": [
+        {
+          "isbn": "9789897221392",
+          "year": 2014,
+          "pub": "Quetzal Editores"
+        },
+        {
+          "isbn": "9788535921878",
+          "year": 2012,
+          "pub": "Companhia das Letras"
+        },
+        {
+          "isbn": "9788580865028",
+          "year": 2012,
+          "pub": "Companhia das Letras"
+        }
+      ],
+      "tr": [
+        {
+          "isbn": "9789750726309",
+          "year": 2015,
+          "pub": "Can Yayinlari"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "hv",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Eles Eram Muitos Cavalos",
+    "a": "Luiz Ruffato",
+    "c": "Brazil",
+    "y": 2001,
+    "g": "Novel",
+    "en": "There Were Many Horses (Amazon Crossing, 2014)",
+    "aw": "APCA Award; Machado de Assis Award",
+    "bl": "One day in São Paulo as 69 fragments in wildly different registers — revolutionised contemporary Brazilian fiction.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788577992539",
+          "year": 2010,
+          "pub": "BestBolso"
+        },
+        {
+          "isbn": "8585934867",
+          "year": 2001,
+          "pub": "Boitempo Editorial"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "A Chave de Casa",
+    "a": "Tatiana Salem Levy",
+    "c": "Brazil",
+    "y": 2007,
+    "g": "Novel",
+    "en": "The House in Smyrna (Scribe, 2015, tr. Alison Entrekin)",
+    "aw": "São Paulo Prize for Literature 2008",
+    "bl": "A woman takes her grandfather's house key to Smyrna — weaves displacement across Turkey, Brazil and Portugal through three generations.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788501079275",
+          "year": 2007,
+          "pub": "Editora Record"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Melhor Não Contar",
+    "a": "Tatiana Salem Levy",
+    "c": "Brazil",
+    "y": 2024,
+    "g": "Novel",
+    "bl": "Levy's most recent novel — continuing her exploration of trauma, migration and the stories we keep from ourselves.",
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Enterre Seus Mortos",
+    "a": "Ana Paula Maia",
+    "c": "Brazil",
+    "y": 2018,
+    "g": "Novel",
+    "en": "Bury Your Dead (Charco Press, forthcoming 2026)",
+    "aw": "São Paulo Prize for Literature 2019",
+    "bl": "Edgar Wilson collects road-kill animals; when he finds a woman's corpse and police lack resources, he and a priest give the dead dignity. Brutalist prose.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788535930672",
+          "year": 2018,
+          "pub": "Companhia das Letras"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "O Punho e a Renda",
+    "a": "Edgard Telles Ribeiro",
+    "c": "Brazil",
+    "y": 2010,
+    "g": "Novel",
+    "en": "His Own Man (Other Press, 2014, tr. Kim M. Hastings)",
+    "aw": "Brazilian PEN Club Prize 2011",
+    "bl": "A diplomat makes a Faustian pact with Brazil's military regime, becoming involved in Operation Condor activities in Uruguay and Chile.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788501091628",
+          "year": 2010,
+          "pub": "Editora Record"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Vento em Setembro",
+    "a": "Tony Bellotto",
+    "c": "Brazil",
+    "y": 2024,
+    "g": "Novel",
+    "aw": "Jabuti Prize 2025",
+    "bl": "Two timelines: a magnate's 1970s party; present-day Ouro Preto where 'God is dead' graffiti connects to the decades-old mystery. By the Titãs guitarist.",
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "O Peso do Pássaro Morto",
+    "a": "Aline Bei",
+    "c": "Brazil",
+    "y": 2017,
+    "g": "Novel",
+    "aw": "São Paulo Prize for Literature 2017",
+    "bl": "A woman narrates a hundred years of family life in formally inventive verse-like prose — a debut of great emotional force.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788569020233",
+          "year": 2017,
+          "pub": "Companhia das Letras"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Água de Barrela",
+    "a": "Eliana Alves Cruz",
+    "c": "Brazil",
+    "y": 2018,
+    "g": "Novel",
+    "aw": "Oliveira Silveira Prize 2015",
+    "bl": "Epic family saga based on five years of research into the author's own ancestry, spanning the 19th-century slave trade to the 20th century.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788592736408",
+          "year": 2018,
+          "pub": "Malê"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Jantar Secreto",
+    "a": "Rafael Montes",
+    "c": "Brazil",
+    "y": 2016,
+    "g": "Thriller",
+    "en": "The Secret Dinner (Celadon Books, forthcoming 2026)",
+    "bl": "Montes's most critically praised work — exploring cannibalism and obsession with dark wit.",
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Em Liberdade",
+    "a": "Silviano Santiago",
+    "c": "Brazil",
+    "y": 1981,
+    "g": "Novel",
+    "aw": "Jabuti Prize; Camões Prize 2022 (career)",
+    "cite_url": "https://pt.wikipedia.org/wiki/Pr%C3%A9mio_Cam%C3%B5es",
+    "bl": "A daring fictional diary imagining what Graciliano Ramos might have written on his release from prison in 1937 — hybrid of biography, fiction and essay.",
+    "editions": {
+      "en": [
+        {
+          "isbn": "8532504825",
+          "year": 1994,
+          "pub": "Rocco"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Mil Rosas Roubadas",
+    "a": "Silviano Santiago",
+    "c": "Brazil",
+    "y": 2014,
+    "g": "Novel",
+    "aw": "Oceanos Prize 2015",
+    "bl": "A retired professor traces his lifelong friendship with a journalist consumed by drugs and rock'n'roll — meditation on love, loss and homosexuality.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788535924541",
+          "year": 2014,
+          "pub": "Companhia das Letras"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Contos Completos",
+    "a": "Caio Fernando Abreu",
+    "c": "Brazil",
+    "y": 2018,
+    "g": "Short stories",
+    "en": "Moldy Strawberries (Restless Books, 2022, tr. Bruna Dantas Lobato)",
+    "bl": "Complete stories: intensely lyrical, queer, consumed by longing and the dark textures of urban life in the dictatorship and AIDS years.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788535931280",
+          "year": 2018,
+          "pub": "Companhia das Letras"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "O Filho Eterno",
+    "a": "Cristovão Tezza",
+    "c": "Brazil",
+    "y": 2007,
+    "g": "Novel",
+    "en": "The Eternal Son (Tagus Press, 2012, tr. Alison Entrekin)",
+    "aw": "Jabuti Prize 2008; Prémio São Paulo de Literatura 2008",
+    "bl": "A father narrates the first years of his son's life after a Down syndrome diagnosis — brutally honest about initial rejection.",
+    "editions": {
+      "en": [
+        {
+          "isbn": "9781933227528",
+          "year": 2013,
+          "pub": "Tagus Press at UMass Dartmouth",
+          "tr": "Alison Entrekin"
+        },
+        {
+          "isbn": "9781921372988",
+          "year": 2013,
+          "pub": "Scribe Publications"
+        }
+      ],
+      "fr": [
+        {
+          "isbn": "9782864246916",
+          "year": 2009,
+          "pub": "METAILIE"
+        },
+        {
+          "isbn": "9782864246916",
+          "year": 2009,
+          "pub": "METAILIE"
+        },
+        {
+          "isbn": "9782864246916",
+          "year": 2009,
+          "pub": "METAILIE"
+        }
+      ],
+      "pt": [
+        {
+          "isbn": "8501077887",
+          "year": 2007,
+          "pub": "Record"
+        },
+        {
+          "isbn": "9788501077882",
+          "year": 2007,
+          "pub": "Editora Record"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Boca do Inferno",
+    "a": "Ana Miranda",
+    "c": "Brazil",
+    "y": 1989,
+    "g": "Novel",
+    "en": "Bay of All Saints (Viking, 1992, tr. Giovanni Pontiero)",
+    "aw": "Jabuti Prize 1990",
+    "bl": "17th-century Salvador: the power struggle between a corrupt governor and Father António Vieira's faction. Credited with renewing the Brazilian historical novel.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788535932621",
+          "year": 2019,
+          "pub": "Companhia das Letras"
+        },
+        {
+          "isbn": "9722008145",
+          "year": 1990,
+          "pub": "Dom Quixote"
+        },
+        {
+          "isbn": "8571640599",
+          "year": 1989,
+          "pub": "Companhia das Letras"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "ar",
+      "ab"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "A Grande Arte",
+    "a": "Rubem Fonseca",
+    "c": "Brazil",
+    "y": 1983,
+    "g": "Novel",
+    "en": "High Art (Harper & Row, 1986, tr. Ellen Watson)",
+    "bl": "A lawyer-turned-detective investigates murders where victims are found with a letter carved into their skin. Brazil's landmark crime novel.",
+    "buy": [
+      "cl",
+      "bk",
+      "ar",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Macunaíma",
+    "a": "Mário de Andrade",
+    "c": "Brazil",
+    "y": 1928,
+    "g": "Novel",
+    "en": "Macunaíma (Random House, 1984, tr. E.A. Goodland)",
+    "bl": "A shapeshifting hero without character travels through Brazilian mythology and modernity — the ur-text of Brazilian Modernism.",
+    "buy": [
+      "cl",
+      "bk",
+      "ar",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Viva o Povo Brasileiro",
+    "a": "João Ubaldo Ribeiro",
+    "c": "Brazil",
+    "y": 1984,
+    "g": "Novel",
+    "en": "An Invincible Memory (Harper & Row, 1989, tr. João Ubaldo Ribeiro)",
+    "aw": "Camões Prize 2008 (career — João Ubaldo Ribeiro)",
+    "cite_url": "https://pt.wikipedia.org/wiki/Pr%C3%A9mio_Cam%C3%B5es",
+    "bl": "Four centuries of Brazilian history seen from below — through slaves, soldiers, tricksters and saints. A carnivalesque masterpiece.",
+    "buy": [
+      "cl",
+      "bk",
+      "ar",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Os Ratos",
+    "a": "Dyonélio Machado",
+    "c": "Brazil",
+    "y": 1935,
+    "g": "Novel",
+    "bl": "A man spends a single day scraping together money to pay his milkman — relentless naturalist novel of economic pressure.",
+    "buy": [
+      "cl",
+      "ar",
+      "ab"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Galileia",
+    "a": "Ronaldo Correia de Brito",
+    "c": "Brazil",
+    "y": 2008,
+    "g": "Novel",
+    "aw": "São Paulo Prize for Literature",
+    "bl": "Three cousins traverse the Inhamuns sertão to visit their dying patriarch — reinvents the literary sertão beyond Guimarães Rosa.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788560281589",
+          "year": 2008,
+          "pub": "Alfaguara"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Essa Terra",
+    "a": "Antônio Torres",
+    "c": "Brazil",
+    "y": 1976,
+    "g": "Novel",
+    "en": "The Land (Readers International, 1987)",
+    "aw": "Machado de Assis Prize 2000",
+    "bl": "Nelo leaves the Bahian sertão for São Paulo only to return broken and suicidal — 150,000+ copies; translated into 18+ languages.",
+    "buy": [
+      "cl",
+      "bk",
+      "ab"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Os Homens dos Pés Redondos",
+    "a": "Antônio Torres",
+    "c": "Brazil",
+    "y": 1973,
+    "g": "Novel",
+    "bl": "A dystopian fable — people walk in circles under tyranny — allegorising both Salazar's Portugal and Brazil's dictatorship.",
+    "buy": [
+      "cl",
+      "ab"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Fim",
+    "a": "Fernanda Torres",
+    "c": "Brazil",
+    "y": 2013,
+    "g": "Novel",
+    "en": "The End (Restless Books)",
+    "aw": "Jabuti Prize for Brazilian Book Published Abroad",
+    "bl": "Torres's debut novel on mortality and memory — sold 200,000+ copies. By Brazil's Cannes Best Actress and 2025 Oscar-nominated actress.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788535923599",
+          "year": 2014,
+          "pub": "Companhia das Letras"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Sete Anos / Monstros por Armário",
+    "a": "Fernanda Torres",
+    "c": "Brazil",
+    "y": 2014,
+    "g": "Chronicles",
+    "bl": "Collections of Fernanda Torres's sharp, funny chronicles on Brazilian culture and politics.",
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Ponciá Vicêncio",
+    "a": "Conceição Evaristo",
+    "c": "Brazil",
+    "y": 2003,
+    "g": "Novel",
+    "en": "Ponciá Vicêncio (Host Publications, 2007, tr. Paloma Costa)",
+    "aw": "Key text in Afro-Brazilian literature",
+    "bl": "A Black woman moves from a rural fazenda to an urban favela — Evaristo's pioneering novel of Afro-Brazilian women's experience.",
+    "editions": {
+      "en": [
+        {
+          "isbn": "9780924047336",
+          "year": 2007,
+          "pub": "Host Publications"
+        },
+        {
+          "isbn": "9780924047343",
+          "year": 2007,
+          "pub": "Host Publications"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Becos da Memória",
+    "a": "Conceição Evaristo",
+    "c": "Brazil",
+    "y": 2006,
+    "g": "Novel",
+    "bl": "A favela community is demolished and its inhabitants scattered — Evaristo's lyrical, collective portrait of displacement.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788571603752",
+          "year": 2006,
+          "pub": "Mazza Edições"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Diário da Queda",
+    "a": "Michel Laub",
+    "c": "Brazil",
+    "y": 2011,
+    "g": "Novel",
+    "en": "Diary of the Fall (Harvill Secker, 2014, tr. Margaret Jull Costa)",
+    "aw": "Jabuti Prize; São Paulo Prize for Literature",
+    "bl": "Three generations of Jewish-Brazilian men haunted by the Holocaust and by a teenage fall at a bar mitzvah — a profound meditation on inherited trauma.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788535918175",
+          "year": 2011,
+          "pub": "Companhia das Letras"
+        }
+      ],
+      "en": [
+        {
+          "isbn": "9781846557323"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Marrom e Amarelo",
+    "a": "Paulo Scott",
+    "c": "Brazil",
+    "y": 2019,
+    "g": "Novel",
+    "en": "Brown and Yellow (Restless Books, 2023, tr. Daniel Hahn)",
+    "bl": "Twin brothers — one who passes as white, one who identifies as Black — navigate racial identity in contemporary Brazil.",
+    "buy": [
+      "cl",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "É Sempre a Hora da Nossa Morte Amém",
+    "a": "Mariana Salomão Carrara",
+    "c": "Brazil",
+    "y": 2021,
+    "g": "Novel",
+    "aw": "Jabuti Prize 2022",
+    "bl": "Debut novel tracing four generations of a Brazilian family across violence, faith and survival.",
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Seca, Bebe Sangue a Terra",
+    "a": "Patrick Torres",
+    "c": "Brazil",
+    "y": 2022,
+    "g": "Novel",
+    "bl": "Debut novel set in the Brazilian sertão exploring drought, violence and the sacred.",
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Canibal e Outros Contos",
+    "a": "Nara Vidal",
+    "c": "Brazil",
+    "y": 2022,
+    "g": "Short stories",
+    "en": null,
+    "aw": "International Booker longlist",
+    "bl": "Stories of women navigating violence, desire and social constraint — from Brazil's Angolan-heritage prize-winning author.",
+    "buy": [
+      "cl",
+      "bk",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "O Quinze",
+    "a": "Rachel de Queiroz",
+    "c": "Brazil",
+    "y": 1930,
+    "g": "Novel",
+    "bl": "The 1915 Great Drought in Ceará told through two cousins — the foundational northeastern Brazilian novel, by the first woman elected to the Brazilian Academy of Letters.",
+    "buy": [
+      "cl",
+      "ar",
+      "ab"
+    ],
+    "aw": "Camões Prize 1993 (career)",
+    "cite_url": "https://pt.wikipedia.org/wiki/Pr%C3%A9mio_Cam%C3%B5es"
+  },
+  {
+    "s": "bf",
+    "t": "Malagueta, Perus e Bacanaço",
+    "a": "João Antônio",
+    "c": "Brazil",
+    "y": 1963,
+    "g": "Short stories",
+    "aw": "Two Jabuti Prizes for a debut — unprecedented",
+    "bl": "An instant classic of Brazilian urban literature: pool hall sharks, hustlers and vagrants in brilliantly stylised popular oral language.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788575033647",
+          "year": 2004,
+          "pub": "Cosac & Naify"
+        },
+        {
+          "isbn": "9788575033616",
+          "year": 2004,
+          "pub": "Not Avail"
+        },
+        {
+          "isbn": "8575033611",
+          "year": 2004,
+          "pub": "Cosac Naify"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "ar",
+      "ab"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "A Maçã Envenenada",
+    "a": "Ana Cristina Cesar",
+    "c": "Brazil",
+    "y": 1983,
+    "g": "Poetry/prose",
+    "bl": "The major collection by Brazil's most celebrated confessional poet, who died at 31 — erotic, fragmentary, formally radical.",
+    "buy": [
+      "cl",
+      "ab"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Primeira Manhã",
+    "a": "Tom Farias",
+    "c": "Brazil",
+    "y": 2018,
+    "g": "Novel",
+    "unc": true,
+    "bl": "Contemporary Brazilian novel — visible on shelf among recent Brazilian fiction.",
+    "buy": [
+      "cl"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Pena de Ganso",
+    "a": "Bernardo Carvalho",
+    "c": "Brazil",
+    "y": 2019,
+    "g": "Novel",
+    "unc": true,
+    "bl": "Novel by Bernardo Carvalho, one of Brazil's most formally inventive contemporary writers.",
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bf",
+    "t": "Narrativas Imprevisíveis [anthology]",
+    "a": "Various (Boitempo)",
+    "c": "Brazil",
+    "y": 2018,
+    "g": "Anthology",
+    "bl": "Brazilian short fiction anthology collecting contemporary voices across regions and generations.",
+    "buy": [
+      "cl"
+    ]
+  },
+  {
+    "s": "bp",
+    "t": "Poesias Completas",
+    "a": "Carlos Drummond de Andrade",
+    "c": "Brazil",
+    "y": 2019,
+    "g": "Poetry",
+    "en": "Multitudinous Heart (FSG, 2015, tr. Richard Zenith) — selection",
+    "bl": "Complete poems of Brazil's greatest modern poet: ironic, melancholy, tender — from 'Poema de Sete Faces' to late meditations on time and death.",
+    "buy": [
+      "cl",
+      "bk",
+      "ar",
+      "lb"
+    ]
+  },
+  {
+    "s": "bp",
+    "t": "Poesia Completa (2 vols — Global)",
+    "a": "Cecília Meireles",
+    "c": "Brazil",
+    "y": 2016,
+    "g": "Poetry",
+    "en": "The Mystical Rose (Bloodaxe, 2014, tr. Ellen Doré Watson)",
+    "bl": "The comprehensive two-volume Global Editora edition of Cecília Meireles's complete poems — the standard scholarly text.",
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bp",
+    "t": "O Tronco / Poesia Completa vol. 1",
+    "a": "Cecília Meireles",
+    "c": "Brazil",
+    "y": 2001,
+    "g": "Poetry",
+    "bl": "First of the complete poetry volumes: metaphysical, musical and melancholy, drawing on sea, time and mortality with extraordinary formal mastery.",
+    "buy": [
+      "cl",
+      "bk",
+      "ar",
+      "lb"
+    ]
+  },
+  {
+    "s": "bp",
+    "t": "Bagagem",
+    "a": "Adélia Prado",
+    "c": "Brazil",
+    "y": 1976,
+    "g": "Poetry",
+    "en": "The Mystical Rose / The Alphabet in the Park (Bloodaxe / Wesleyan UP, tr. Ellen Doré Watson)",
+    "aw": "Griffin Lifetime Recognition Award 2014",
+    "bl": "Debut collection championed by Drummond: Catholic mysticism fused with sensual domestic life in provincial Minas Gerais. Published at 40.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9727950361",
+          "year": 2002,
+          "pub": "Cotovia"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "ar",
+      "lb"
+    ]
+  },
+  {
+    "s": "bp",
+    "t": "Matéria de Poesia",
+    "a": "Manoel de Barros",
+    "c": "Brazil",
+    "y": 1974,
+    "g": "Poetry",
+    "en": "Birds for a Demolition (Carnegie Mellon UP, 2010, tr. Idra Novey)",
+    "aw": "Two Jabuti Prizes",
+    "bl": "Poetry made from insects, 'useless utensils' and small aquatic creatures — a child's astonished gaze at the Pantanal. Drummond called Barros 'Brazil's greatest poet'.",
+    "buy": [
+      "cl",
+      "bk",
+      "ar",
+      "lb"
+    ]
+  },
+  {
+    "s": "bp",
+    "t": "Auto do Frade",
+    "a": "João Cabral de Melo Neto",
+    "c": "Brazil",
+    "y": 1983,
+    "g": "Poetry/drama",
+    "aw": "Neustadt International Prize for Literature 1992",
+    "cite_url": "https://www.worldliteraturetoday.org/neustadt-prize/past-winners",
+    "bl": "Dramatic poem about the execution of Frei Caneca, hero of the 1824 Confederation of the Equator — Brazil's most austere modernist poet at his most political.",
+    "buy": [
+      "cl",
+      "ar",
+      "ab"
+    ]
+  },
+  {
+    "s": "bb",
+    "t": "Verdade Tropical",
+    "a": "Caetano Veloso",
+    "c": "Brazil",
+    "y": 1997,
+    "g": "Memoir",
+    "en": "Tropical Truth (Knopf / Bloomsbury, 2002, tr. Isabel de Sena)",
+    "bl": "Intellectual memoir: Bahian childhood, genesis of Tropicália, imprisonment and exile in London during the dictatorship, and reflections on Brazilian identity.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9789896653620",
+          "year": 2017,
+          "pub": "Companhia das Letras"
+        },
+        {
+          "isbn": "8571647127",
+          "year": 1997,
+          "pub": "Companhia das Letras"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "lb",
+      "ar"
+    ]
+  },
+  {
+    "s": "bb",
+    "t": "Getúlio [3-volume biography]",
+    "a": "Lira Neto",
+    "c": "Brazil",
+    "y": 2013,
+    "g": "Biography",
+    "bl": "The definitive three-volume biography of Getúlio Vargas — Brazil's most important 20th-century political figure: populist, authoritarian, tragic.",
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bb",
+    "t": "Metrópole à Beira-Mar",
+    "a": "Ruy Castro",
+    "c": "Brazil",
+    "y": 2019,
+    "g": "Cultural history",
+    "bl": "Rich reconstruction of Rio de Janeiro in the 1920s — journalism, music, architecture, football and nightlife by Brazil's foremost biographer.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788535932867",
+          "year": 2019,
+          "pub": "Companhia das Letras"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bb",
+    "t": "O Anjo Pornográfico [Nelson Rodrigues biography]",
+    "a": "Ruy Castro",
+    "c": "Brazil",
+    "y": 1992,
+    "g": "Biography",
+    "bl": "Ruy Castro's biography of playwright and provocateur Nelson Rodrigues — brilliant, outrageous and compulsively readable.",
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bb",
+    "t": "PAGU — Patrícia Galvão",
+    "a": "Various",
+    "c": "Brazil",
+    "y": 2015,
+    "g": "Biography",
+    "bl": "Study of Patrícia Rehder Galvão (Pagu) — Modernist artist, writer, Communist militant and Brazil's first female political prisoner.",
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bb",
+    "t": "A Segunda Pátria",
+    "a": "Miguel Sanches Neto",
+    "c": "Brazil",
+    "y": 2013,
+    "g": "Novel/memoir",
+    "bl": "A Brazilian-Japanese family saga spanning decades of immigration and cultural negotiation in Paraná state.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788580576719",
+          "year": 2015,
+          "pub": "Editora Intrínseca Ltda."
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bm",
+    "t": "O Ouvidor do Brasil: 99 Vezes Tom Jobim",
+    "a": "Ruy Castro",
+    "c": "Brazil",
+    "y": 2023,
+    "g": "Music biography",
+    "bl": "Ruy Castro's portrait of Tom Jobim through 99 vignettes and encounters — Brazil's definitive Jobim book.",
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "bm",
+    "t": "Ney Matogrosso [biography]",
+    "a": "Various",
+    "c": "Brazil",
+    "y": 2020,
+    "g": "Music biography",
+    "unc": true,
+    "bl": "Biography of the iconoclast Brazilian singer and Secos e Molhados frontman — pioneer of androgynous rock in 1970s Brazil.",
+    "buy": [
+      "cl"
+    ]
+  },
+  {
+    "s": "bm",
+    "t": "Gilberto Gil [biography / obras]",
+    "a": "Various",
+    "c": "Brazil",
+    "y": 2018,
+    "g": "Music biography",
+    "unc": true,
+    "bl": "Portrait of the Tropicália co-founder, former Minister of Culture and global icon of Brazilian MPB and axé music.",
+    "buy": [
+      "cl"
+    ]
+  },
+  {
+    "s": "bm",
+    "t": "Samba e MPB [studies]",
+    "a": "Carlos Senra",
+    "c": "Brazil",
+    "y": 2015,
+    "g": "Music studies",
+    "unc": true,
+    "bl": "Overview of Brazilian popular music from samba to MPB — histories, song analysis and cultural context.",
+    "buy": [
+      "cl"
+    ]
+  },
+  {
+    "s": "bm",
+    "t": "Dicionário da Música do Samba",
+    "a": "Various",
+    "c": "Brazil",
+    "y": 2010,
+    "g": "Reference",
+    "bl": "Comprehensive reference dictionary covering composers, performers, styles and vocabulary of Brazilian samba.",
+    "buy": [
+      "cl",
+      "ab"
+    ]
+  },
+  {
+    "s": "bm",
+    "t": "Amoroso [João Gilberto study]",
+    "a": "Samuel de Mello",
+    "c": "Brazil",
+    "y": 2016,
+    "g": "Music biography",
+    "unc": true,
+    "bl": "Portrait of João Gilberto, bossa nova's founding genius and Brazil's most elusive musical figure.",
+    "buy": [
+      "cl"
+    ]
+  },
+  {
+    "s": "bm",
+    "t": "Lira Neto [Getúlio / music writings]",
+    "a": "Lira Neto",
+    "c": "Brazil",
+    "y": 2013,
+    "g": "Cultural biography",
+    "unc": true,
+    "bl": "Lira Neto's writings on Brazilian culture and music, alongside his Getúlio Vargas biography.",
+    "buy": [
+      "cl"
+    ]
+  },
+  {
+    "s": "hi",
+    "t": "História Concisa do Brasil",
+    "a": "Boris Fausto",
+    "c": "Brazil",
+    "y": 1994,
+    "g": "History",
+    "en": "A Concise History of Brazil (Cambridge UP, 1999, tr. Arthur Brakel)",
+    "bl": "The standard one-volume history of Brazil from pre-colonial times to the present — accessible and authoritative.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788531405921",
+          "year": 2002,
+          "pub": "Imprensa Oficial SP"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "bk",
+      "lb",
+      "ar"
+    ]
+  },
+  {
+    "s": "hi",
+    "t": "O Tiradentes",
+    "a": "Lucas Figueiredo",
+    "c": "Brazil",
+    "y": 2018,
+    "g": "Biography/history",
+    "bl": "Definitive modern biography of Joaquim José da Silva Xavier (Tiradentes), hero of the 1789 Inconfidência Mineira — Brazil's foundational independence martyr.",
+    "editions": {
+      "pt": [
+        {
+          "isbn": "9788535931365",
+          "year": 2018,
+          "pub": "Companhia das Letras"
+        }
+      ]
+    },
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "hi",
+    "t": "Escravidão Indígena nos Sertões de Piratauba",
+    "a": "Ângelo de Mula",
+    "c": "Brazil",
+    "y": 2005,
+    "g": "History",
+    "bl": "Academic study of indigenous enslavement in the colonial Brazilian sertão — essential for understanding colonial labour systems.",
+    "buy": [
+      "cl",
+      "ab"
+    ]
+  },
+  {
+    "s": "hi",
+    "t": "O Candomblé Bem Explicado",
+    "a": "Various",
+    "c": "Brazil",
+    "y": 2015,
+    "g": "Religion/anthropology",
+    "bl": "Accessible introduction to Candomblé — its orishas, rituals, history and relationship to Afro-Brazilian identity.",
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "hi",
+    "t": "Geografia dos Mitos Brasileiros",
+    "a": "Luís da Câmara Cascudo",
+    "c": "Brazil",
+    "y": 1947,
+    "g": "Folklore/mythology",
+    "bl": "Classic work of Brazilian folklore scholarship mapping the distribution of myths and legends across the country's regions. The founding father of Brazilian folklorology.",
+    "buy": [
+      "cl",
+      "ar",
+      "ab"
+    ]
+  },
+  {
+    "s": "hi",
+    "t": "Abdias Nascimento: Intérprete do Brasil",
+    "a": "Various",
+    "c": "Brazil",
+    "y": 2019,
+    "g": "Cultural/political biography",
+    "bl": "Study of Abdias Nascimento — playwright, founder of the Black Experimental Theatre, senator and tireless advocate for Afro-Brazilian rights.",
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "hi",
+    "t": "Repressão e Resistência [series]",
+    "a": "Various",
+    "c": "Brazil",
+    "y": 2010,
+    "g": "History",
+    "bl": "Multi-volume series on political repression and resistance during Brazil's military dictatorship (1964–85).",
+    "buy": [
+      "cl",
+      "ab"
+    ]
+  },
+  {
+    "s": "hi",
+    "t": "Religiões e Religiosidades [series]",
+    "a": "Various",
+    "c": "Brazil",
+    "y": 2012,
+    "g": "Religious studies",
+    "bl": "Academic series on religious diversity in Brazil — Candomblé, Spiritism, Evangelical Christianity and Catholicism.",
+    "buy": [
+      "cl",
+      "ab"
+    ]
+  },
+  {
+    "s": "hi",
+    "t": "Um País de Negros",
+    "a": "Various",
+    "c": "Brazil",
+    "y": 2015,
+    "g": "Afro-Brazilian studies",
+    "bl": "Study of Black Brazil — demographics, culture, politics and the ongoing struggle for racial equality.",
+    "buy": [
+      "cl",
+      "lb"
+    ]
+  },
+  {
+    "s": "hi",
+    "t": "Historia do Brasil [multi-volume series]",
+    "a": "Various",
+    "c": "Brazil",
+    "y": 2010,
+    "g": "History",
+    "unc": true,
+    "bl": "Multi-volume academic history of Brazil covering political, social and cultural development across major periods.",
+    "buy": [
+      "cl",
+      "ab"
+    ]
+  },
+  {
+    "s": "hi",
+    "t": "O Mito do Golpe do Brasil",
+    "a": "Various",
+    "c": "Brazil",
+    "y": 2018,
+    "g": "Political history",
+    "unc": true,
+    "bl": "Critical examination of the mythology surrounding Brazil's various coups — 1930, 1945, 1964 — and their lasting legacies.",
+    "buy": [
+      "cl"
+    ]
+  }
+]
