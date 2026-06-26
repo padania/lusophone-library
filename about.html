@@ -8,13 +8,20 @@
 <style>
 footer{margin-top:3rem;text-align:center}
 .date-flag{font-weight:700;font-family:Georgia,serif}
-.method-step{display:flex;gap:1rem;align-items:flex-start;margin-bottom:1rem}
-.method-step .step-num{font-family:Georgia,serif;font-size:1.4rem;font-weight:700;
-  color:#c8860a;flex-shrink:0;width:2rem;line-height:1.2}
+
+/* ── Methodology steps ───────────────────────────────────── */
+.method-step{display:flex;gap:1.25rem;align-items:flex-start;
+  margin-bottom:1.25rem;padding-bottom:1.25rem;
+  border-bottom:1px solid #f0e8dc}
+.method-step:last-of-type{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.method-step .step-num{font-family:Georgia,serif;font-size:1.5rem;
+  font-weight:700;color:#c8860a;flex-shrink:0;width:2rem;
+  line-height:1.2;padding-top:1px}
 .method-step .step-body{flex:1}
-.method-step .step-body strong{display:block;font-size:0.95rem;font-weight:700;
-  color:#1a1208;margin-bottom:0.2rem}
-.method-step .step-body span{font-size:14px;color:#3a2c1a;line-height:1.65}
+.method-step .step-body strong{display:block;font-size:1rem;
+  font-weight:700;color:#1a1208;margin-bottom:0.3rem}
+.method-step .step-body span{font-size:15px;color:#3a2c1a;
+  line-height:1.7;display:block}
 </style>
 </head>
 <body>
@@ -42,7 +49,7 @@ footer{margin-top:3rem;text-align:center}
 
   <h2 id="start">The occasion</h2>
 
-  <p>My birthday falls on 5 May, which, among other things, is also the <span class="date-flag">Dia Mundial da Língua Portuguesa</span> — the World Day of the Portuguese Language, recognised by UNESCO and the United Nations. I have been absorbing Portuguese for the past three years or so, and am now learning more formally, which makes it feel less like a coincidence than an invitation.</p>
+  <p>I recently learned that my birthday also happens to be the <span class="date-flag">Dia Mundial da Língua Portuguesa</span> — which, given that I have been slowly absorbing Portuguese (both Brazilian and Portuguese versions) over the past 3 years, feels less like a coincidence than an imperative.</p>
 
   <p>Earlier this year I was in Paris and walked past the <strong>Librairie Portugaise et Brésilienne</strong> on rue Tournefort in the 5th arrondissement — one of the only specialist Lusophone bookshops in Europe. I went in, browsed for a long time, chatted with the person at the desk, bought a few things, and came out feeling acutely aware of how much I didn't know: about Angolan literature, about Cape Verdean poetry, about the extraordinary range of Brazilian fiction beyond the authors I already recognised.</p>
 
@@ -50,7 +57,7 @@ footer{margin-top:3rem;text-align:center}
 
   <p>So I gave the ~20 photographs I took of the shelves to Anthropic's chatbot version of Claude to do the research. It has ended up being quite an engrossing experiment for me to learn how to put together and sequence a simple project like this.</p>
 
-<h2 id="method">What I actually did</h2>
+  <h2 id="method">What I actually did</h2>
 
   <div class="method-step">
     <div class="step-num">1</div>
@@ -108,7 +115,7 @@ footer{margin-top:3rem;text-align:center}
     </div>
   </div>
 
-<h2 id="caveats">What to trust — and what not to</h2>
+  <h2 id="caveats">What to trust — and what not to</h2>
 
   <div class="caveats">
     <h3>Be aware</h3>
@@ -118,7 +125,7 @@ footer{margin-top:3rem;text-align:center}
       <li>Publication years are the best available date — first edition in Portuguese, not necessarily the edition in the shop.</li>
       <li>English translation details (translator names, publishers, years) were checked but should be verified before purchasing.</li>
       <li>The catalogue covers ~217 of an estimated 280–320 distinct titles on the shelves. Many titles were too far, too small, or too obscured to identify.</li>
-          </ul>
+    </ul>
   </div>
 
   <h2>What the AI was good at</h2>
@@ -135,13 +142,12 @@ footer{margin-top:3rem;text-align:center}
 
   <h2 id="what-next">What this is for</h2>
 
-  <p>A personal experiment to build a reading list, primarily — structured around the question of what Lusophone literature I should know if I'm serious about learning Portuguese and understanding the world it opens up. That means Angola, Mozambique, Cape Verde, Brazil and Goa, not just Portugal.</p>
+  <p>A personal experiment to build a reading list, primarily — structured around the question of what Lusophone literature I should know if I'm serious about learning Portuguese and understanding the world it opens up. That means Angola, Mozambique, Cape Verde, Brazil and Goa, not just Portugal. (And, as one of my kids pointed out, it doesn't include any East Timorese writing, though maybe I missed that shelf when I was taking pictures.)</p>
 
   <p>It's also a small demonstrator of what AI can assist me to do with a bit of basic back-and-forth research — not replacing expertise, but rapidly building an initial structure that human judgement can then correct and refine — and this feels genuinely useful. The catalogue took a few hours of iterative work rather than weeks.</p>
 
   <p>It's just based on what was on the shelves at the bookshop, so whether it's a good reading guide is for others to judge. Let me know things you think I should add, and why, via the <a href="suggest.html">Suggest a book</a> link below.</p>
 
-  <p>5 de maio. Dia Mundial da Língua Portuguesa.<br>A good day to start.</p>
 
 </div>
 
