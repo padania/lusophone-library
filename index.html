@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'">
 <title>Lusophone Library — Catalogue</title>
 <link rel="stylesheet" href="shared.css">
 <style>
@@ -239,7 +240,7 @@ footer{line-height:1.8}
 <footer>
   <strong>Specialists:</strong> <a href="https://librairie-portugaise.com">librairie-portugaise.com</a> · <a href="https://bertrand.pt">bertrand.pt</a> (worldwide shipping) · <a href="https://www.companhiadasletras.com.br">companhiadasletras.com.br</a> (links open Google site-search — direct links require ISBNs) · <a href="https://travessa.com.br">travessa.com.br</a><br>
   <strong>English translations:</strong> <a href="https://bookshop.org">bookshop.org</a> · <a href="https://www.hive.co.uk">hive.co.uk</a><br>
-  <strong>Free texts:</strong> <a href="https://archive.org">archive.org</a> · <a href="http://www.dominiopublico.gov.br">dominiopublico.gov.br</a><br>
+  <strong>Free texts:</strong> <a href="https://archive.org">archive.org</a> · <a href="https://www.dominiopublico.gov.br">dominiopublico.gov.br</a><br>
   <strong>Library apps:</strong> <a href="https://worldcat.org">worldcat.org</a> (finds library + Libby/OverDrive availability)<br>
   <strong>Secondhand:</strong> <a href="https://www.abebooks.co.uk">abebooks.co.uk</a> · <a href="https://www.estantevirtual.com.br">estantevirtual.com.br</a><br>
   <strong>French academic:</strong> <a href="https://www.editions-harmattan.fr">editions-harmattan.fr</a> · <a href="https://www.karthala.com">karthala.com</a><br>
@@ -248,6 +249,11 @@ footer{line-height:1.8}
 
 <script>
 const enc=encodeURIComponent;
+function escHtml(s){
+  if(s==null) return '';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+function safeUrl(u){return(u&&/^https?:\/\//i.test(u))?u:'#';}
 function isbn(eds,lang){
   if(!eds) return null;
   const arr=eds[lang];
@@ -261,7 +267,7 @@ const BUY={
   bk:{l:"Bookshop.org",f:(t,a,eds)=>{const i=isbn(eds,"en");return i?`https://bookshop.org/books/${i}`:`https://bookshop.org/search?keywords=${enc(t+' '+a)}`;}},
   hv:{l:"Hive.co.uk",f:(t,a,eds)=>{const i=isbn(eds,"en");return i?`https://www.hive.co.uk/Product/ISBN/${i}`:`https://www.hive.co.uk/Search/Keyword?keyword=${enc(t+' '+a)}`;}},
   ar:{l:"Open Library",f:(t,a,eds)=>{const i=isbn(eds,"pt")||isbn(eds,"en");return i?`https://openlibrary.org/isbn/${i}`:`https://archive.org/search?query=${enc('"'+t+'"')}&mediatype=texts`;}},
-  dp:{l:"Dom\u00ednio P\u00fablico (free)",f:(t,a,eds)=>`http://www.dominiopublico.gov.br/pesquisa/PesquisaObraForm.do?no_obra=${enc(t)}&co_midia=2`},
+  dp:{l:"Dom\u00ednio P\u00fablico (free)",f:(t,a,eds)=>`https://www.dominiopublico.gov.br/pesquisa/PesquisaObraForm.do?no_obra=${enc(t)}&co_midia=2`},
   lb:{l:"WorldCat / Libraries",f:(t,a,eds)=>{const i=isbn(eds,"en")||isbn(eds,"pt");return i?`https://worldcat.org/isbn/${i}`:`https://worldcat.org/search?q=${enc(t+' '+a)}`;}},
   ab:{l:"AbeBooks",f:(t,a,eds)=>{const i=isbn(eds,"en")||isbn(eds,"pt");return i?`https://www.abebooks.co.uk/servlet/SearchResults?isbn=${i}`:`https://www.abebooks.co.uk/book-search/title/${enc(t)}/author/${enc(a)}/`;}},
   ev:{l:"Estante Virtual",f:(t,a,eds)=>`https://www.estantevirtual.com.br/busca?q=${enc(t)}`}
@@ -309,8 +315,8 @@ function renderEditions(eds){
     const lname=LNAMES[lang]||lang.toUpperCase();
     html+=`<div class="eds-lang"><span class="eds-l">${lname}</span>`;
     for(const ed of arr.slice(0,3)){
-      const label=[ed.pub,ed.year,ed.tr?`tr. ${ed.tr}`:null].filter(Boolean).join(' \u00b7 ');
-      html+=`<a class="eds-isbn" href="https://openlibrary.org/isbn/${ed.isbn}" target="_blank" title="${label||ed.isbn}">${ed.isbn}</a>`;
+      const label=escHtml([ed.pub,ed.year,ed.tr?`tr. ${ed.tr}`:null].filter(Boolean).join(' \u00b7 '));
+      html+=`<a class="eds-isbn" href="https://openlibrary.org/isbn/${encodeURIComponent(ed.isbn)}" target="_blank" rel="noopener noreferrer" title="${label||escHtml(ed.isbn)}">${escHtml(ed.isbn)}</a>`;
     }
     if(arr.length>3) html+=`<span class="eds-more">+${arr.length-3} more</span>`;
     html+='</div>';
@@ -330,11 +336,11 @@ function makeCard(b,id){
   if(b.unc) tags+=`<span class="tg unc">spine only</span>`;
   let body='';
   if(isOpen){
-    const buyH=(b.buy||[]).map(k=>BUY[k]?`<a class="bb" href="${BUY[k].f(b.t,b.a,b.editions||null)}" target="_blank">${BUY[k].l}${b.editions&&['bk','hv','lb','ab'].includes(k)?' \u2197':''}</a>`:'').join('');
+    const buyH=(b.buy||[]).map(k=>BUY[k]?`<a class="bb" href="${BUY[k].f(b.t,b.a,b.editions||null)}" target="_blank" rel="noopener noreferrer">${escHtml(BUY[k].l)}${b.editions&&['bk','hv','lb','ab'].includes(k)?' \u2197':''}</a>`:'').join('');
     body=`<div class="cb">
-      <p class="bl">${b.bl||''}${b.unc?'<br><span style="font-size:10px;color:#c0392b;font-style:italic">\u26a0 Identified from spine only \u2014 title/author may be imprecise</span>':''}</p>
-      ${b.aw?`<p class="aw-t">\u2605 ${b.aw}${b.cite_url?` \u2014 <a class="cite-link" href="${b.cite_url}" target="_blank">\uD83D\uDCDC citation</a>`:""}</p>`:''}
-      ${b.en?`<p class="en-t">\uD83C\uDDEC\uD83C\uDDE7 English edition: ${b.en}</p>`:'<p class="no-en">No English translation identified</p>'}
+      <p class="bl">${escHtml(b.bl||'')}${b.unc?'<br><span style="font-size:10px;color:#c0392b;font-style:italic">\u26a0 Identified from spine only \u2014 title/author may be imprecise</span>':''}</p>
+      ${b.aw?`<p class="aw-t">\u2605 ${escHtml(b.aw)}${b.cite_url?` \u2014 <a class="cite-link" href="${safeUrl(b.cite_url)}" target="_blank" rel="noopener noreferrer">\uD83D\uDCDC citation</a>`:""}</p>`:''}
+      ${b.en?`<p class="en-t">\uD83C\uDDEC\uD83C\uDDE7 English edition: ${escHtml(b.en)}</p>`:'<p class="no-en">No English translation identified</p>'}
       ${b.editions?renderEditions(b.editions):''}
       <div class="bl-lbl">Where to find it</div>
       <div class="br">${buyH}</div>
@@ -343,8 +349,8 @@ function makeCard(b,id){
   card.innerHTML=`<div class="ch" onclick="tog('${id}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();tog('${id}');}" tabindex="0" role="button" aria-expanded="${isOpen}">
     <span class="fl">${FL[b.c]||'\uD83C\uDF0D'}</span>
     <div class="mt">
-      <div class="tt">${b.t}</div>
-      <div class="au">${b.a}${b.c?' \u00b7 '+b.c:''}</div>
+      <div class="tt">${escHtml(b.t)}</div>
+      <div class="au">${escHtml(b.a)}${b.c?' \u00b7 '+escHtml(b.c):''}</div>
       <div class="tgs">${tags}</div>
     </div>
     <span class="cv">${isOpen?'\u25b2':'\u25bc'}</span>
