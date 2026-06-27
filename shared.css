@@ -36,7 +36,7 @@ h2{font-size:1.1rem;font-weight:700;
   color:#111;margin:2rem 0 0.75rem;padding-top:1.5rem;
   border-top:1px solid #e5e5e5}
 h2:first-child,.body>h2:first-of-type{border-top:none;padding-top:0}
-h3{font-size:0.9rem;font-weight:700;letter-spacing:.03em;text-transform:uppercase;
+h3{font-size:1rem;font-weight:700;letter-spacing:.03em;text-transform:uppercase;
   color:#555;margin:1.25rem 0 0.5rem}
 p{margin-bottom:1rem;color:#111}
 p:last-child{margin-bottom:0}
