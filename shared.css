@@ -8,8 +8,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
   padding:0 2rem;display:flex;align-items:center;
   justify-content:space-between;height:52px;
   position:sticky;top:0;z-index:100}
-.wordmark{font-family:Georgia,serif;font-size:1.15rem;font-weight:700;
-  color:#111;text-decoration:none;letter-spacing:-0.01em}
+.wordmark{font-size:1.15rem;font-weight:700;
+  color:#111;text-decoration:none;letter-spacing:0}
 .wordmark:hover{color:#c8860a}
 .site-header nav{display:flex;gap:1.5rem;align-items:center}
 .site-header nav a{font-size:14px;color:#555;text-decoration:none}
@@ -26,18 +26,18 @@ footer a:hover{color:#c8860a}
 .page-title{padding:1.75rem 2rem 0;max-width:700px;margin:0 auto}
 .page-title .eyebrow{font-size:12px;font-weight:700;letter-spacing:.1em;
   text-transform:uppercase;color:#c8860a;margin-bottom:0.4rem}
-.page-title h1{font-family:Georgia,serif;font-size:1.75rem;font-weight:700;
+.page-title h1{font-size:1.75rem;font-weight:700;
   color:#111;line-height:1.25;margin-bottom:0.4rem}
 .page-title .sub{font-size:15px;color:#555;margin-bottom:0}
 
 /* ── CONTENT BODY (about + suggest) ─────────────────────────── */
 .body{max-width:700px;margin:0 auto;padding:2.5rem 2rem 4rem}
-h2{font-family:Georgia,serif;font-size:1.2rem;font-weight:700;
+h2{font-size:1.1rem;font-weight:700;
   color:#111;margin:2rem 0 0.75rem;padding-top:1.5rem;
   border-top:1px solid #e5e5e5}
 h2:first-child,.body>h2:first-of-type{border-top:none;padding-top:0}
-h3{font-family:Georgia,serif;font-size:1rem;font-weight:700;
-  color:#333;margin:1.25rem 0 0.5rem}
+h3{font-size:0.9rem;font-weight:700;letter-spacing:.03em;text-transform:uppercase;
+  color:#555;margin:1.25rem 0 0.5rem}
 p{margin-bottom:1rem;color:#111}
 p:last-child{margin-bottom:0}
 strong{font-weight:700;color:#111}

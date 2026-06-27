@@ -3,19 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'">
 <title>How I built this — Lusophone Library</title>
 <link rel="stylesheet" href="shared.css">
 <style>
 footer{margin-top:3rem;text-align:center}
-.date-flag{font-weight:700;font-family:Georgia,serif}
+.date-flag{font-weight:700}
 
 /* ── Methodology steps ───────────────────────────────────── */
 .method-step{display:flex;gap:1.25rem;align-items:flex-start;
   margin-bottom:1.25rem;padding-bottom:1.25rem;
   border-bottom:1px solid #e5e5e5}
 .method-step:last-of-type{border-bottom:none;margin-bottom:0;padding-bottom:0}
-.method-step .step-num{font-family:Georgia,serif;font-size:1.5rem;
+.method-step .step-num{font-size:1.5rem;
   font-weight:700;color:#c8860a;flex-shrink:0;width:2rem;
   line-height:1.2;padding-top:1px}
 .method-step .step-body{flex:1}
