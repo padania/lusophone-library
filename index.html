@@ -190,7 +190,7 @@ footer{line-height:1.8}
   <div id="leg-pills" class="leg-pills" hidden>
     <button class="lb" style="background:#fff3e0;color:#8a4000" onclick="showTip('Librairie Portugaise et Brésilienne (librairie-portugaise.com) · Bertrand worldwide shipping (bertrand.pt) · FNAC Portugal (fnac.pt)')">&#127477;&#127481; Librairie Portugaise / Bertrand</button>
     <button class="lb" style="background:#e8f5e9;color:#1b5e20" onclick="showTip('Bookshop.org UK (bookshop.org/pages/uk) · Hive.co.uk · Bookshop.org US — search the English title')">&#127468;&#127463; Bookshop.org / Hive</button>
-    <button class="lb" style="background:#e3f2fd;color:#0d47a1" onclick="showTip('Companhia das Letras (companhiadasletras.com.br) · Rocco/Record (grupoeditorialrecord.com.br) · Alfaguara Brasil · Livraria Travessa (travessa.com.br)')">&#127463;&#127479; Brazilian publishers</button>
+    <button class="lb" style="background:#e3f2fd;color:#0d47a1" onclick="showTip('Rocco/Record (grupoeditorialrecord.com.br) · Livraria Travessa (travessa.com.br)')">&#127463;&#127479; Brazilian publishers</button>
     <button class="lb" style="background:#f3e5f5;color:#4a148c" onclick="showTip('Internet Archive / Open Library (archive.org) — free to borrow or read online · Domínio Público Brazil (dominiopublico.gov.br) — free digital public domain')">&#128214; Free online (archive.org)</button>
     <button class="lb" style="background:#e0f7fa;color:#006064" onclick="showTip('Links open a WorldCat search (worldcat.org) — shows which libraries worldwide hold the book and whether it is in Libby/OverDrive')">&#127963;&#65039; WorldCat / Libraries</button>
     <button class="lb" style="background:#fce4ec;color:#880e4f" onclick="showTip('AbeBooks (abebooks.co.uk) · Estante Virtual (estantevirtual.com.br) for Brazilian editions · WorldCat.org to find library copies · eBay')">&#128269; AbeBooks / secondhand</button>
@@ -238,7 +238,7 @@ footer{line-height:1.8}
 <div id="out"></div>
 
 <footer>
-  <strong>Specialists:</strong> <a href="https://librairie-portugaise.com">librairie-portugaise.com</a> · <a href="https://bertrand.pt">bertrand.pt</a> (worldwide shipping) · <a href="https://www.companhiadasletras.com.br">companhiadasletras.com.br</a> (links open Google site-search — direct links require ISBNs) · <a href="https://travessa.com.br">travessa.com.br</a><br>
+  <strong>Specialists:</strong> <a href="https://librairie-portugaise.com">librairie-portugaise.com</a> · <a href="https://bertrand.pt">bertrand.pt</a> (worldwide shipping) · <a href="https://travessa.com.br">travessa.com.br</a><br>
   <strong>English translations:</strong> <a href="https://bookshop.org">bookshop.org</a> · <a href="https://www.hive.co.uk">hive.co.uk</a><br>
   <strong>Free texts:</strong> <a href="https://archive.org">archive.org</a> · <a href="https://www.dominiopublico.gov.br">dominiopublico.gov.br</a><br>
   <strong>Library apps:</strong> <a href="https://worldcat.org">worldcat.org</a> (finds library + Libby/OverDrive availability)<br>
@@ -261,7 +261,6 @@ function isbn(eds,lang){
 const BUY={
   sp:{l:"Librairie Portugaise",f:(t,a,eds)=>`https://www.librairie-portugaise.com/?s=${enc(t)}`},
   bt:{l:"Bertrand.pt",f:(t,a,eds)=>`https://www.bertrand.pt/pesquisa?pesquisa=${enc(t)}`},
-  cl:{l:"Companhia das Letras",f:(t,a,eds)=>`https://www.google.com/search?q=site:companhiadasletras.com.br+${enc(t)}`},
   rc:{l:"Rocco/Record",f:(t,a,eds)=>`https://www.grupoeditorialrecord.com.br/?s=${enc(t)}`},
   bk:{l:"Bookshop.org",f:(t,a,eds)=>{const i=isbn(eds,"en");return i?`https://bookshop.org/books/${i}`:`https://bookshop.org/search?keywords=${enc(t+' '+a)}`;}},
   hv:{l:"Hive.co.uk",f:(t,a,eds)=>{const i=isbn(eds,"en");return i?`https://www.hive.co.uk/Product/ISBN/${i}`:`https://www.hive.co.uk/Search/Keyword?keyword=${enc(t+' '+a)}`;}},
